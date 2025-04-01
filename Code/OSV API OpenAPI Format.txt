@@ -1,0 +1,87 @@
+openapi: 3.1.0
+info:
+  title: OSV API
+  description: API for querying vulnerabilities from the Open Source Vulnerability (OSV) database.
+  version: 1.0.2
+servers:
+  - url: https://api.osv.dev/v1
+    description: OSV production API server
+paths:
+  /query:
+    post:
+      operationId: queryVulnerability
+      summary: Query for vulnerabilities using commit hash or package version.
+      description: |
+        This endpoint allows querying the OSV database for known vulnerabilities using either:
+        
+        - A Git commit hash (`commit`)
+        - A package name, version, and ecosystem (`package` and `version`)
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                commit:
+                  type: string
+                  description: A Git commit hash.
+                version:
+                  type: string
+                  description: The version of the package.
+                package:
+                  type: object
+                  properties:
+                    name:
+                      type: string
+                      description: The package name (e.g. jinja2).
+                    ecosystem:
+                      type: string
+                      description: The ecosystem (e.g. PyPI, npm, Go, etc).
+              oneOf:
+                - required: [commit]
+                - required: [version, package]
+      responses:
+        '200':
+          description: A successful query returning vulnerability data.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  vulns:
+                    type: array
+                    description: List of vulnerabilities affecting the queried commit or package version.
+                    items:
+                      type: object
+                      properties:
+                        id:
+                          type: string
+                          description: The unique identifier for the vulnerability.
+                        summary:
+                          type: string
+                          description: A short summary of the vulnerability.
+                        details:
+                          type: string
+                          description: Full details about the vulnerability.
+                        aliases:
+                          type: array
+                          items:
+                            type: string
+                        severity:
+                          type: array
+                          items:
+                            type: object
+                            properties:
+                              type:
+                                type: string
+                                description: Severity type (e.g., CVSS_V3).
+                              score:
+                                type: string
+                                description: Severity score.
+                required:
+                  - vulns
+        '400':
+          description: Invalid request payload.
+        '500':
+          description: Internal server error.
