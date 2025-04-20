@@ -1,23 +1,23 @@
-from fastapi import FastAPI, File, UploadFile
+from fastapi import FastAPI, Request
 from fastapi.responses import JSONResponse
-import uvicorn
-import os
-import json
+import base64
 import tempfile
 import subprocess
+import os
+import json
 
 app = FastAPI()
 
 @app.post("/check-sbom")
-async def check_sbom(file: UploadFile = File(...)):
-    # Save uploaded file temporarily
+async def check_sbom(request: Request):
+    data = await request.json()
+    file_content = base64.b64decode(data["file"])
+
     with tempfile.NamedTemporaryFile(delete=False, suffix=".json") as tmp:
-        contents = await file.read()
-        tmp.write(contents)
+        tmp.write(file_content)
         tmp_path = tmp.name
 
     try:
-        # Run osv-scanner on the file
         result = subprocess.run(
             ["osv-scanner", f"--sbom={tmp_path}", "--json"],
             capture_output=True,
@@ -33,6 +33,3 @@ async def check_sbom(file: UploadFile = File(...)):
         )
     finally:
         os.remove(tmp_path)
-
-if __name__ == "__main__":
-    uvicorn.run("main:app", host="0.0.0.0", port=8000)
