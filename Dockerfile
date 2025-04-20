@@ -1,36 +1,29 @@
 FROM python:3.11-slim
 
+# Prevent Python from buffering stdout/stderr
 ENV PYTHONDONTWRITEBYTECODE=1
 ENV PYTHONUNBUFFERED=1
 
-# Install system dependencies
-RUN apt-get update && apt-get install -y \
-    curl \
-    tar \
-    unzip \
-    && apt-get clean
+# Install required packages including Go
+RUN apt-get update && \
+    apt-get install -y curl git gcc make wget tar build-essential && \
+    wget https://golang.org/dl/go1.21.6.linux-amd64.tar.gz && \
+    tar -C /usr/local -xzf go1.21.6.linux-amd64.tar.gz && \
+    rm go1.21.6.linux-amd64.tar.gz
 
-# Upgrade pip
-RUN pip install --upgrade pip
+# Set Go environment variables
+ENV PATH="/usr/local/go/bin:$PATH"
 
-# Set working directory
+# Install osv-scanner from source
+RUN go install github.com/google/osv-scanner/v2/cmd/osv-scanner@v2
+
+# Copy Python app code
 WORKDIR /app
-
-# Install Python dependencies
 COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install --upgrade pip && pip install -r requirements.txt
 
-# ✅ Correct download of osv-scanner tar.gz archive
-RUN curl -L -o https://github.com/google/osv-scanner/releases/download/v1.7.3/osv-scanner_1.7.3_linux_amd64.tar.gz && \
-    tar -xzf osv-scanner_1.7.3_linux_amd64.tar.gz && \
-    mv osv-scanner /usr/local/bin/osv-scanner && \
-    chmod +x /usr/local/bin/osv-scanner && \
-    rm osv-scanner_1.7.3_linux_amd64.tar.gz
-
-# Copy application source code
 COPY . .
 
 EXPOSE 8000
 
-# Run FastAPI app
 CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000"]
