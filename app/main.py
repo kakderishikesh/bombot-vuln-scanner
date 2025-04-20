@@ -16,7 +16,7 @@ class SBOMRequest(BaseModel):
 @app.post("/check-sbom")
 async def check_sbom(request: SBOMRequest):
     try:
-        # Decode the base64-encoded content
+        # Decode base64-encoded content
         file_content = base64.b64decode(request.file)
     except Exception as e:
         return JSONResponse(status_code=400, content={
@@ -24,11 +24,10 @@ async def check_sbom(request: SBOMRequest):
             "details": str(e)
         })
 
-    # Determine file extension
+    # Determine the file extension
     if request.extension:
         suffix = f".{request.extension.strip('.')}"
     else:
-        # Try to guess the format from content
         if b"spdxVersion" in file_content:
             suffix = ".spdx.json"
         elif b"bomFormat" in file_content and b"cyclonedx" in file_content.lower():
@@ -38,37 +37,37 @@ async def check_sbom(request: SBOMRequest):
         else:
             suffix = ".json"
 
-    # Save the decoded content to a temporary file
+    # Write the content to a temporary file
     with tempfile.NamedTemporaryFile(delete=False, suffix=suffix) as tmp:
         tmp.write(file_content)
         tmp_path = tmp.name
 
     try:
-        # Run osv-scanner with appropriate format
+        # Run osv-scanner without check=True
         result = subprocess.run(
             ["osv-scanner", f"--sbom={tmp_path}", "--format", "json"],
             capture_output=True,
-            text=True,
-            check=True
+            text=True
         )
-        output = json.loads(result.stdout)
-        return JSONResponse(content=output)
+
+        # Try to parse output even if exit code is non-zero
+        try:
+            output = json.loads(result.stdout)
+            return JSONResponse(content=output)
+        except json.JSONDecodeError:
+            return JSONResponse(
+                status_code=500,
+                content={
+                    "error": "Failed to parse osv-scanner output",
+                    "stdout": result.stdout,
+                    "stderr": result.stderr
+                }
+            )
 
     except FileNotFoundError:
         return JSONResponse(
             status_code=500,
             content={"error": "osv-scanner not found. Make sure it is installed and in the PATH."}
-        )
-
-    except subprocess.CalledProcessError as e:
-        return JSONResponse(
-            status_code=500,
-            content={
-                "error": "Failed to scan SBOM",
-                "command": e.cmd,
-                "stdout": e.stdout,
-                "stderr": e.stderr
-            }
         )
 
     except Exception as e:
