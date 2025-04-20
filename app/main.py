@@ -10,8 +10,14 @@ app = FastAPI()
 
 @app.post("/check-sbom")
 async def check_sbom(request: Request):
-    data = await request.json()
-    file_content = base64.b64decode(data["file"])
+    try:
+        data = await request.json()
+        if "file" not in data:
+            return JSONResponse(status_code=400, content={"error": "Missing 'file' in request body"})
+
+        file_content = base64.b64decode(data["file"])
+    except Exception as e:
+        return JSONResponse(status_code=400, content={"error": "Invalid JSON or base64 input", "details": str(e)})
 
     with tempfile.NamedTemporaryFile(delete=False, suffix=".json") as tmp:
         tmp.write(file_content)
