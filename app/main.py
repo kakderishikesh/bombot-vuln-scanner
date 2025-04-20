@@ -39,7 +39,7 @@ async def check_sbom(request: SBOMRequest):
     try:
         # Run osv-scanner with the temp SBOM file
         result = subprocess.run(
-            ["osv-scanner", f"--sbom={tmp_path}", "--json"],
+            ["osv-scanner", f"--sbom={tmp_path}", "--format", "json"],
             capture_output=True,
             text=True,
             check=True
