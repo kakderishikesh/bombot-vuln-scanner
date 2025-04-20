@@ -21,7 +21,7 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 # ✅ Correct download of osv-scanner tar.gz archive
-RUN curl -LO https://github.com/google/osv-scanner/releases/download/v1.7.3/osv-scanner_1.7.3_linux_amd64.tar.gz && \
+RUN curl -L-o https://github.com/google/osv-scanner/releases/download/v1.7.3/osv-scanner_1.7.3_linux_amd64.tar.gz && \
     tar -xzf osv-scanner_1.7.3_linux_amd64.tar.gz && \
     mv osv-scanner /usr/local/bin/osv-scanner && \
     chmod +x /usr/local/bin/osv-scanner && \
