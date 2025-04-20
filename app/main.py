@@ -15,23 +15,29 @@ class SBOMRequest(BaseModel):
 @app.post("/check-sbom")
 async def check_sbom(request: SBOMRequest):
     try:
+        # Decode the base64 file string
         file_content = base64.b64decode(request.file)
     except Exception as e:
-        return JSONResponse(status_code=400, content={"error": "Invalid base64 input", "details": str(e)})
+        return JSONResponse(status_code=400, content={
+            "error": "Invalid base64 input",
+            "details": str(e)
+        })
 
-    # Guess file type from content (basic heuristic)
-    if file_content.lstrip().startswith(b"<?xml"):
-        suffix = ".xml"
-    elif file_content.lstrip().startswith(b"{"):
+    # Try to guess the file type by sniffing the content
+    if file_content.lstrip().startswith(b"{"):
         suffix = ".json"
+    elif file_content.lstrip().startswith(b"<?xml"):
+        suffix = ".xml"
     else:
-        suffix = ".spdx"  # Assume SPDX tag-value
+        suffix = ".spdx"
 
+    # Save to a temporary file
     with tempfile.NamedTemporaryFile(delete=False, suffix=suffix) as tmp:
         tmp.write(file_content)
         tmp_path = tmp.name
 
     try:
+        # Run osv-scanner with --sbom
         result = subprocess.run(
             ["osv-scanner", f"--sbom={tmp_path}", "--json"],
             capture_output=True,
@@ -40,6 +46,7 @@ async def check_sbom(request: SBOMRequest):
         )
         output = json.loads(result.stdout)
         return JSONResponse(content=output)
+
     except subprocess.CalledProcessError as e:
         return JSONResponse(
             status_code=500,
@@ -50,5 +57,11 @@ async def check_sbom(request: SBOMRequest):
                 "stderr": e.stderr
             }
         )
+    except Exception as e:
+        return JSONResponse(
+            status_code=500,
+            content={"error": "Unexpected error", "details": str(e)}
+        )
     finally:
+        # Always clean up the temp file
         os.remove(tmp_path)
