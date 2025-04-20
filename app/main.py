@@ -1,5 +1,6 @@
-from fastapi import FastAPI, Request
+from fastapi import FastAPI
 from fastapi.responses import JSONResponse
+from pydantic import BaseModel
 import base64
 import tempfile
 import subprocess
@@ -8,16 +9,15 @@ import json
 
 app = FastAPI()
 
-@app.post("/check-sbom")
-async def check_sbom(request: Request):
-    try:
-        data = await request.json()
-        if "file" not in data:
-            return JSONResponse(status_code=400, content={"error": "Missing 'file' in request body"})
+class SBOMRequest(BaseModel):
+    file: str  # base64-encoded string
 
-        file_content = base64.b64decode(data["file"])
+@app.post("/check-sbom")
+async def check_sbom(request: SBOMRequest):
+    try:
+        file_content = base64.b64decode(request.file)
     except Exception as e:
-        return JSONResponse(status_code=400, content={"error": "Invalid JSON or base64 input", "details": str(e)})
+        return JSONResponse(status_code=400, content={"error": "Invalid base64 input", "details": str(e)})
 
     with tempfile.NamedTemporaryFile(delete=False, suffix=".json") as tmp:
         tmp.write(file_content)
