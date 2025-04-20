@@ -10,7 +10,7 @@ import json
 app = FastAPI()
 
 class SBOMRequest(BaseModel):
-    file: str  # base64-encoded string
+    file: str  # base64-encoded SBOM content
 
 @app.post("/check-sbom")
 async def check_sbom(request: SBOMRequest):
@@ -19,7 +19,15 @@ async def check_sbom(request: SBOMRequest):
     except Exception as e:
         return JSONResponse(status_code=400, content={"error": "Invalid base64 input", "details": str(e)})
 
-    with tempfile.NamedTemporaryFile(delete=False, suffix=".json") as tmp:
+    # Guess file type from content (basic heuristic)
+    if file_content.lstrip().startswith(b"<?xml"):
+        suffix = ".xml"
+    elif file_content.lstrip().startswith(b"{"):
+        suffix = ".json"
+    else:
+        suffix = ".spdx"  # Assume SPDX tag-value
+
+    with tempfile.NamedTemporaryFile(delete=False, suffix=suffix) as tmp:
         tmp.write(file_content)
         tmp_path = tmp.name
 
@@ -35,7 +43,12 @@ async def check_sbom(request: SBOMRequest):
     except subprocess.CalledProcessError as e:
         return JSONResponse(
             status_code=500,
-            content={"error": "Failed to scan SBOM", "details": e.stderr}
+            content={
+                "error": "Failed to scan SBOM",
+                "command": e.cmd,
+                "stdout": e.stdout,
+                "stderr": e.stderr
+            }
         )
     finally:
         os.remove(tmp_path)
