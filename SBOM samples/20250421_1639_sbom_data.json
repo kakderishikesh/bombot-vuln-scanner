@@ -1,0 +1,1884 @@
+{
+  "sbom": {
+    "spdxVersion": "SPDX-2.3",
+    "dataLicense": "CC0-1.0",
+    "SPDXID": "SPDXRef-DOCUMENT",
+    "name": "com.github.pawan128/github-slideshow",
+    "documentNamespace": "https://spdx.org/spdxdocs/protobom/d24efb1d-7012-473f-840b-8afafb634518",
+    "creationInfo": {
+      "creators": [
+        "Tool: protobom-v0.0.0-20250417160448-234c8d241855+dirty",
+        "Tool: GitHub.com-Dependency-Graph"
+      ],
+      "created": "2025-04-21T14:10:00Z"
+    },
+    "packages": [
+      {
+        "name": "reveal.js",
+        "SPDXID": "SPDXRef-npm-reveal.js-3.9.2-a5f57b",
+        "versionInfo": "3.9.2",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "MIT",
+        "copyrightText": "(c) 2018 Yauheni Pakala, (c) Vladimir Epifanov <voldmar@voldmar.ru>, Copyright (c) 2011-2012 Hakim El Hattab, http://hakim.se, Copyright (c) 2011-2014 Hakim El Hattab, http://hakim.se, Copyright (c) 2011-2018, Christopher Jeffrey. (MIT Licensed) https://github.com/markedjs/marked, Copyright (c) 2012 Owen Versteeg, https://github.com/StereotypicalApps., Copyright (c) 2012-2013 Owen Versteeg, http://owenversteeg.com, Copyright 2006 Google Inc. https://code.google.com/p/google-diff-match-patch, Copyright 2010, 2012 Adobe Systems Incorporated (http://www.adobe.com/), Copyright 2010, 2012 Adobe Systems Incorporated., copyright copysource cor, Copyright jQuery Foundation and other contributors",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:npm/reveal.js@3.9.2"
+          }
+        ]
+      },
+      {
+        "name": "tzinfo",
+        "SPDXID": "SPDXRef-gem-tzinfo-1.2.5-75c946",
+        "versionInfo": "1.2.5",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "MIT",
+        "copyrightText": "Copyright (c) 2005-2018 Philip Ross",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:gem/tzinfo@1.2.5"
+          }
+        ]
+      },
+      {
+        "name": "jekyll-commonmark",
+        "SPDXID": "SPDXRef-gem-jekyll-commonmark-1.3.1-75c946",
+        "versionInfo": "1.3.1",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "MIT",
+        "copyrightText": "Copyright (c) 2015-present Pat Hawks and jekyll-commonmark contributors",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:gem/jekyll-commonmark@1.3.1"
+          }
+        ]
+      },
+      {
+        "name": "faraday",
+        "SPDXID": "SPDXRef-gem-faraday-0.17.0-75c946",
+        "versionInfo": "0.17.0",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "MIT",
+        "copyrightText": "Copyright (c) 2009-2017 Rick Olson (mailto:technoweenie@gmail.com), Zack Hobson., Copyright (c) 2009-2017 Rick Olson, Zack Hobson",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:gem/faraday@0.17.0"
+          }
+        ]
+      },
+      {
+        "name": "jekyll-coffeescript",
+        "SPDXID": "SPDXRef-gem-jekyll-coffeescript-1.1.1-75c946",
+        "versionInfo": "1.1.1",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "MIT",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:gem/jekyll-coffeescript@1.1.1"
+          }
+        ]
+      },
+      {
+        "name": "jekyll-sass-converter",
+        "SPDXID": "SPDXRef-gem-jekyll-sass-converter-1.5.2-75c946",
+        "versionInfo": "1.5.2",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "MIT",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:gem/jekyll-sass-converter@1.5.2"
+          }
+        ]
+      },
+      {
+        "name": "rb-inotify",
+        "SPDXID": "SPDXRef-gem-rb-inotify-0.10.0-75c946",
+        "versionInfo": "0.10.0",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "MIT",
+        "copyrightText": "Copyright, 2009, by Natalie Weizenbaum (https://github.com/nex3)., Copyright, 2012, by Natalie Weizenbaum., Copyright, 2017, by Samuel G. D. Williams (http://www.codeotaku.com/samuel-williams)., Copyright, 2017, by Samuel G. D. Williams. <http://www.codeotaku.com>",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:gem/rb-inotify@0.10.0"
+          }
+        ]
+      },
+      {
+        "name": "terminal-table",
+        "SPDXID": "SPDXRef-gem-terminal-table-1.8.0-75c946",
+        "versionInfo": "1.8.0",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "MIT",
+        "copyrightText": "Copyright (c) 2008-2009 TJ Holowaychuk <tj@vision-media.ca>, Copyright (c) 2008-2017 TJ Holowaychuk <tj@vision-media.ca>",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:gem/terminal-table@1.8.0"
+          }
+        ]
+      },
+      {
+        "name": "public_suffix",
+        "SPDXID": "SPDXRef-gem-publicsuffix-3.1.1-75c946",
+        "versionInfo": "3.1.1",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "MIT",
+        "copyrightText": "Copyright (c) 2009-2019 Simone Carletti <weppos@weppos.net>, Copyright (c) 2009-2019 Simone Carletti.",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:gem/public_suffix@3.1.1"
+          }
+        ]
+      },
+      {
+        "name": "octokit",
+        "SPDXID": "SPDXRef-gem-octokit-4.14.0-75c946",
+        "versionInfo": "4.14.0",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "MIT",
+        "copyrightText": "Copyright (c) 2009-2014 Wynn Netherland, Adam Stacoviak, Erik Michaels-Ober, Copyright (c) 2009-2017 Wynn Netherland, Adam Stacoviak, Erik Michaels-Ober",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:gem/octokit@4.14.0"
+          }
+        ]
+      },
+      {
+        "name": "html-proofer",
+        "SPDXID": "SPDXRef-gem-html-proofer-3.14.1-75c946",
+        "versionInfo": "3.14.1",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "MIT",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:gem/html-proofer@3.14.1"
+          }
+        ]
+      },
+      {
+        "name": "typhoeus",
+        "SPDXID": "SPDXRef-gem-typhoeus-1.3.1-75c946",
+        "versionInfo": "1.3.1",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "MIT",
+        "copyrightText": "Copyright (c) 2009-2010 Paul Dix, Copyright (c) 2009-2010 Paul Dix (http://www.pauldix.net/), Copyright (c) 2011 David Balatero, Copyright (c) 2011-2012 David Balatero (https://github.com/dbalatero/), Copyright (c) 2012-2016 Hans Hasselberg, Copyright (c) 2012-2016 Hans Hasselberg (http://github.com/i0rek/)",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:gem/typhoeus@1.3.1"
+          }
+        ]
+      },
+      {
+        "name": "mercenary",
+        "SPDXID": "SPDXRef-gem-mercenary-0.3.6-75c946",
+        "versionInfo": "0.3.6",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "MIT",
+        "copyrightText": "Copyright (c) 2013-2014 Parker Moore",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:gem/mercenary@0.3.6"
+          }
+        ]
+      },
+      {
+        "name": "addressable",
+        "SPDXID": "SPDXRef-gem-addressable-2.7.0-75c946",
+        "versionInfo": "2.7.0",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "Apache-2.0",
+        "copyrightText": "Copyright (c) Bob Aman",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:gem/addressable@2.7.0"
+          }
+        ]
+      },
+      {
+        "name": "html-pipeline",
+        "SPDXID": "SPDXRef-gem-html-pipeline-2.12.2-75c946",
+        "versionInfo": "2.12.2",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "MIT",
+        "copyrightText": "Copyright (c) 2012 GitHub Inc. and Jerry Cheung",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:gem/html-pipeline@2.12.2"
+          }
+        ]
+      },
+      {
+        "name": "safe_yaml",
+        "SPDXID": "SPDXRef-gem-safeyaml-1.0.5-75c946",
+        "versionInfo": "1.0.5",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "MIT",
+        "copyrightText": "Copyright (c) 2013 Dan Tao",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:gem/safe_yaml@1.0.5"
+          }
+        ]
+      },
+      {
+        "name": "jekyll-theme-merlot",
+        "SPDXID": "SPDXRef-gem-jekyll-theme-merlot-0.1.1-75c946",
+        "versionInfo": "0.1.1",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "CC0-1.0",
+        "copyrightText": "copyright 2010-2011, Google Corporation.Open SansBold ItalicwebfontOpen Sans Bold ItalicVersion, copyright 2010-2011, Google Corporation.Open SansBoldwebfontOpen Sans BoldVersion, copyright 2010-2011, Google Corporation.Open SansItalicwebfontOpen Sans ItalicVersion, copyright 2010-2011, Google Corporation.Open SansRegularwebfontOpen Sans RegularVersion, copyright 20102011 Google Corporation Foundry Ascender Corporation, copyright 2011 Google Corporation Foundry Ascender Corporation, copyright 2011, Google Corporation.Open SansExtraboldwebfontOpen Sans ExtraboldVersion",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:gem/jekyll-theme-merlot@0.1.1"
+          }
+        ]
+      },
+      {
+        "name": "jekyll-theme-midnight",
+        "SPDXID": "SPDXRef-gem-jekyll-theme-midnight-0.1.1-75c946",
+        "versionInfo": "0.1.1",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "CC0-1.0",
+        "copyrightText": "copyright 2010-2011, Google Corporation.Open SansBold ItalicwebfontOpen Sans Bold ItalicVersion, copyright 2010-2011, Google Corporation.Open SansBoldwebfontOpen Sans BoldVersion, copyright 2010-2011, Google Corporation.Open SansItalicwebfontOpen Sans ItalicVersion, copyright 2010-2011, Google Corporation.Open SansLight ItalicwebfontOpen Sans Light ItalicVersion, copyright 2010-2011, Google Corporation.Open SansLightwebfontOpen Sans LightVersion, copyright 2010-2011, Google Corporation.Open SansRegularwebfontOpen Sans RegularVersion, copyright 2010-2011, Google Corporation.Open SansSemibold ItalicwebfontOpen Sans Semibold ItalicVersion, copyright 20102011 Google Corporation Foundry Ascender Corporation, copyright 2011 Google Corporation Foundry Ascender Corporation, copyright 2011, Google Corporation.Open SansSemiboldwebfontOpen Sans SemiboldVersion",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:gem/jekyll-theme-midnight@0.1.1"
+          }
+        ]
+      },
+      {
+        "name": "jekyll-titles-from-headings",
+        "SPDXID": "SPDXRef-gem-jekyll-titles-from-headings-0.5.1-75c946",
+        "versionInfo": "0.5.1",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "MIT",
+        "copyrightText": "Copyright (c) 2016 Ben Balter",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:gem/jekyll-titles-from-headings@0.5.1"
+          }
+        ]
+      },
+      {
+        "name": "rb-fsevent",
+        "SPDXID": "SPDXRef-gem-rb-fsevent-0.10.3-75c946",
+        "versionInfo": "0.10.3",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "MIT",
+        "copyrightText": "Copyright (c) 2003 Constantin S. Svintsoff <kostik@iclub.nsu.ru>, Copyright (c) 2010-2014 Thibaud Guillaume-Gentil & Travis Tilley, Copyright (c) 2011 Konstantin Haase, Copyright (c) 2011-2013 Travis Tilley, Copyright (c) 2011-2017 Travis Tilley, Copyright (c) 2011-2017 Travis Tilley CFBundleVersion 0.1.5 LSMinimumSystemVersion 10.8 DTSDKBuild, Copyright (c) 2013, Facebook, Inc., Copyright (c) 2015 Andrey Tarantsov <andrey@tarantsov.com>",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:gem/rb-fsevent@0.10.3"
+          }
+        ]
+      },
+      {
+        "name": "ruby_dep",
+        "SPDXID": "SPDXRef-gem-rubydep-1.5.0-75c946",
+        "versionInfo": "1.5.0",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "MIT",
+        "copyrightText": "Copyright (c) 2016 Cezary Baginski",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:gem/ruby_dep@1.5.0"
+          }
+        ]
+      },
+      {
+        "name": "jekyll-redirect-from",
+        "SPDXID": "SPDXRef-gem-jekyll-redirect-from-0.14.0-75c946",
+        "versionInfo": "0.14.0",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "MIT",
+        "copyrightText": "Copyright (c) 2013-present Parker Moore and jekyll-redirect-from contributors",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:gem/jekyll-redirect-from@0.14.0"
+          }
+        ]
+      },
+      {
+        "name": "jekyll-theme-primer",
+        "SPDXID": "SPDXRef-gem-jekyll-theme-primer-0.5.3-75c946",
+        "versionInfo": "0.5.3",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "MIT",
+        "copyrightText": "Copyright (c) 2016-2017 GitHub, Inc., Copyright (c) 2018 GitHub Inc.",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:gem/jekyll-theme-primer@0.5.3"
+          }
+        ]
+      },
+      {
+        "name": "jekyll-theme-tactile",
+        "SPDXID": "SPDXRef-gem-jekyll-theme-tactile-0.1.1-75c946",
+        "versionInfo": "0.1.1",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "CC0-1.0",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:gem/jekyll-theme-tactile@0.1.1"
+          }
+        ]
+      },
+      {
+        "name": "github-pages-health-check",
+        "SPDXID": "SPDXRef-gem-github-pages-health-check-1.16.1-75c946",
+        "versionInfo": "1.16.1",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "MIT",
+        "copyrightText": "Copyright (c) 2014 - 2017 GitHub, Inc.",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:gem/github-pages-health-check@1.16.1"
+          }
+        ]
+      },
+      {
+        "name": "rubyzip",
+        "SPDXID": "SPDXRef-gem-rubyzip-2.0.0-75c946",
+        "versionInfo": "2.0.0",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "BSD-2-Clause OR Ruby",
+        "copyrightText": "Copyright (c) 2002 Thomas Sondergaard, Copyright (c) 2002-2004 Thomas Sondergaard, Copyright (c) 2002, 2003 Thomas Sondergaard, Copyright (c) 2003 Thomas Sondergaard",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:gem/rubyzip@2.0.0"
+          }
+        ]
+      },
+      {
+        "name": "jekyll-gist",
+        "SPDXID": "SPDXRef-gem-jekyll-gist-1.5.0-75c946",
+        "versionInfo": "1.5.0",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "MIT",
+        "copyrightText": "Copyright (c) 2014 Parker Moore",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:gem/jekyll-gist@1.5.0"
+          }
+        ]
+      },
+      {
+        "name": "jekyll-theme-modernist",
+        "SPDXID": "SPDXRef-gem-jekyll-theme-modernist-0.1.1-75c946",
+        "versionInfo": "0.1.1",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "CC0-1.0",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:gem/jekyll-theme-modernist@0.1.1"
+          }
+        ]
+      },
+      {
+        "name": "parallel",
+        "SPDXID": "SPDXRef-gem-parallel-1.19.0-75c946",
+        "versionInfo": "1.19.0",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "MIT",
+        "copyrightText": "Copyright (c) 2013 Michael Grosser <michael@grosser.it>",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:gem/parallel@1.19.0"
+          }
+        ]
+      },
+      {
+        "name": "yell",
+        "SPDXID": "SPDXRef-gem-yell-2.2.0-75c946",
+        "versionInfo": "2.2.0",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "MIT",
+        "copyrightText": "Copyright (c) 2011-2014 Rudolf Schmidt, Copyright (c) 2011-2015 Rudolf Schmidt",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:gem/yell@2.2.0"
+          }
+        ]
+      },
+      {
+        "name": "sass",
+        "SPDXID": "SPDXRef-gem-sass-3.7.4-75c946",
+        "versionInfo": "3.7.4",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "MIT",
+        "copyrightText": "Copyright (c) 2006-2016 Hampton Catlin, Natalie Weizenbaum, and Chris Eppstein, Copyright 2016 Google Inc.",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:gem/sass@3.7.4"
+          }
+        ]
+      },
+      {
+        "name": "kramdown",
+        "SPDXID": "SPDXRef-gem-kramdown-1.17.0-75c946",
+        "versionInfo": "1.17.0",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "MIT",
+        "copyrightText": "(c) 2004 Foo Corporation, (c) 2008, A O. (c) 2008, Copyright (c) 2000-2005 Minero Aoki, Copyright (c) 2003 John Gruber, Copyright (c) 2003 John Gruber (http://daringfireball.net), Copyright (c) 2004 Chad Miller, Copyright (c) 2004 Christian Neukirchen, Copyright (c) 2007 Michel Fortin <http://www.michelf.com/>, Copyright (c) 2009-2013 Thomas Leitner <t_leitner@gmx.at>, Copyright (c) 2009-2015 Thomas Leitner <t_leitner@gmx.at>, Copyright (c) 2009-2016 Thomas Leitner, Copyright (c) 2009-2016 Thomas Leitner <t_leitner@gmx.at>, Copyright (c) 2014-2017 Thomas Leitner <t_leitner@gmx.at>, Copyright (c) 2017 Christian Cornelssen <ccorn@1tein.de>, Copyright (c) 2018 Gleb Mazovetskiy <glex.spb@gmail.com>, copyright content 2009-2016 Thomas Leitner",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:gem/kramdown@1.17.0"
+          }
+        ]
+      },
+      {
+        "name": "liquid",
+        "SPDXID": "SPDXRef-gem-liquid-4.0.0-75c946",
+        "versionInfo": "4.0.0",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "MIT",
+        "copyrightText": "Copyright (c) 2005 Tobias Luetke, Copyright (c) 2005, 2006 Tobias Luetke",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:gem/liquid@4.0.0"
+          }
+        ]
+      },
+      {
+        "name": "pathutil",
+        "SPDXID": "SPDXRef-gem-pathutil-0.16.2-75c946",
+        "versionInfo": "0.16.2",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "MIT",
+        "copyrightText": "Copyright (c) 2015 - 2017 Jordon Bedwell, Copyright 2015 - 2017 Jordon Bedwell, Copyright 2017 - 2018",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:gem/pathutil@0.16.2"
+          }
+        ]
+      },
+      {
+        "name": "jekyll-paginate",
+        "SPDXID": "SPDXRef-gem-jekyll-paginate-1.1.0-75c946",
+        "versionInfo": "1.1.0",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "MIT",
+        "copyrightText": "Copyright (c) 2014 Parker Moore",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:gem/jekyll-paginate@1.1.0"
+          }
+        ]
+      },
+      {
+        "name": "multipart-post",
+        "SPDXID": "SPDXRef-gem-multipart-post-2.1.1-75c946",
+        "versionInfo": "2.1.1",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "MIT",
+        "copyrightText": "Copyright (c) 2007-2012 Nick Sieger., Copyright (c) 2007-2013 Nick Sieger <nick@nicksieger.com>, Copyright (c) 2007-2013 Nick Sieger nick@nicksieger.com, Copyright (c) 2007-2013 Nick Sieger., Copyright, 2012, by Nick Sieger., Copyright, 2017, by Samuel G. D. Williams (http://www.codeotaku.com/samuel-williams)., Copyright, 2017, by Samuel G. D. Williams., Copyright, 2017, by Samuel G. D. Williams. <http://www.codeotaku.com>",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:gem/multipart-post@2.1.1"
+          }
+        ]
+      },
+      {
+        "name": "jekyll-default-layout",
+        "SPDXID": "SPDXRef-gem-jekyll-default-layout-0.1.4-75c946",
+        "versionInfo": "0.1.4",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "MIT",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:gem/jekyll-default-layout@0.1.4"
+          }
+        ]
+      },
+      {
+        "name": "jekyll-swiss",
+        "SPDXID": "SPDXRef-gem-jekyll-swiss-0.4.0-75c946",
+        "versionInfo": "0.4.0",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "MIT",
+        "copyrightText": "Copyright (c) 2016",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:gem/jekyll-swiss@0.4.0"
+          }
+        ]
+      },
+      {
+        "name": "jekyll-commonmark-ghpages",
+        "SPDXID": "SPDXRef-gem-jekyll-commonmark-ghpages-0.1.6-75c946",
+        "versionInfo": "0.1.6",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "MIT",
+        "copyrightText": "Copyright (c) 2017 GitHub",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:gem/jekyll-commonmark-ghpages@0.1.6"
+          }
+        ]
+      },
+      {
+        "name": "concurrent-ruby",
+        "SPDXID": "SPDXRef-gem-concurrent-ruby-1.1.5-75c946",
+        "versionInfo": "1.1.5",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "MIT",
+        "copyrightText": "Copyright (c) 2014 Jerry D'Antonio (https://twitter.com/jerrydantonio)., Copyright (c) Jerry D'Antonio, Copyright Concurrent Ruby",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:gem/concurrent-ruby@1.1.5"
+          }
+        ]
+      },
+      {
+        "name": "unicode-display_width",
+        "SPDXID": "SPDXRef-gem-unicode-displaywidth-1.6.0-75c946",
+        "versionInfo": "1.6.0",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "MIT",
+        "copyrightText": "Copyright (c) 2009 Run Paint Run Run, Copyright (c) 2011, 2015-2019 Jan Lelis, Copyright (c) 2011, 2015-2019 Jan Lelis, https://janlelis.com",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:gem/unicode-display_width@1.6.0"
+          }
+        ]
+      },
+      {
+        "name": "sawyer",
+        "SPDXID": "SPDXRef-gem-sawyer-0.8.2-75c946",
+        "versionInfo": "0.8.2",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "MIT",
+        "copyrightText": "Copyright (c) 2011",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:gem/sawyer@0.8.2"
+          }
+        ]
+      },
+      {
+        "name": "http_parser.rb",
+        "SPDXID": "SPDXRef-gem-httpparser.rb-0.6.0-75c946",
+        "versionInfo": "0.6.0",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "MIT",
+        "copyrightText": "Copyright 2009,2010 Marc-Andre Cournoyer <macournoyer@gmail.com>, Copyright 2010 Tim Becker <tim.becker@kuriositaet.de>, Copyright 2010,2011 Aman Gupta <aman@tmm1.net>, copyright Igor Sysoev., copyright Joyent, Inc. and other Node contributors., Copyright Joyent, Inc. and other Node contributors.",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:gem/http_parser.rb@0.6.0"
+          }
+        ]
+      },
+      {
+        "name": "coffee-script-source",
+        "SPDXID": "SPDXRef-gem-coffee-script-source-1.11.1-75c946",
+        "versionInfo": "1.11.1",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "MIT",
+        "copyrightText": "Copyright 2011, Jeremy Ashkenas",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:gem/coffee-script-source@1.11.1"
+          }
+        ]
+      },
+      {
+        "name": "forwardable-extended",
+        "SPDXID": "SPDXRef-gem-forwardable-extended-2.6.0-75c946",
+        "versionInfo": "2.6.0",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "MIT",
+        "copyrightText": "Copyright (c) 2015-2016 Jordon Bedwell, Copyright 2015-2016 Jordon Bedwell",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:gem/forwardable-extended@2.6.0"
+          }
+        ]
+      },
+      {
+        "name": "i18n",
+        "SPDXID": "SPDXRef-gem-i18n-0.9.5-75c946",
+        "versionInfo": "0.9.5",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "MIT",
+        "copyrightText": "Copyright (c) 2003-2009 Masao Mutoh, Copyright (c) 2008 The Ruby I18n team",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:gem/i18n@0.9.5"
+          }
+        ]
+      },
+      {
+        "name": "jekyll-theme-leap-day",
+        "SPDXID": "SPDXRef-gem-jekyll-theme-leap-day-0.1.1-75c946",
+        "versionInfo": "0.1.1",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "CC0-1.0",
+        "copyrightText": "(www.ikern.com mail@iginomarini.com), Copyright (c) 2011, Brenda Gallo. (gbrenda1987@gmail.com), Copyright (c) 2010, Daniel Rhatigan (sparky@ultrasparky.org), Copyright (c) 2011, Igino Marini., Copyright (c) 2011, Pablo Impallari (www.impallari.com impallari@gmail.com), Copyright c 2010 Daniel Rhatigansparkyultrasparkyorg, Copyright c 2011 Pablo Impallari",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:gem/jekyll-theme-leap-day@0.1.1"
+          }
+        ]
+      },
+      {
+        "name": "minitest",
+        "SPDXID": "SPDXRef-gem-minitest-5.13.0-75c946",
+        "versionInfo": "5.13.0",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "MIT",
+        "copyrightText": "Copyright (c) Ryan Davis, seattle.rb",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:gem/minitest@5.13.0"
+          }
+        ]
+      },
+      {
+        "name": "jemoji",
+        "SPDXID": "SPDXRef-gem-jemoji-0.10.2-75c946",
+        "versionInfo": "0.10.2",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "MIT",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:gem/jemoji@0.10.2"
+          }
+        ]
+      },
+      {
+        "name": "coffee-script",
+        "SPDXID": "SPDXRef-gem-coffee-script-2.4.1-75c946",
+        "versionInfo": "2.4.1",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "MIT",
+        "copyrightText": "Copyright (c) 2010 Joshua Peek",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:gem/coffee-script@2.4.1"
+          }
+        ]
+      },
+      {
+        "name": "jekyll-mentions",
+        "SPDXID": "SPDXRef-gem-jekyll-mentions-1.4.1-75c946",
+        "versionInfo": "1.4.1",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "MIT",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:gem/jekyll-mentions@1.4.1"
+          }
+        ]
+      },
+      {
+        "name": "rainbow",
+        "SPDXID": "SPDXRef-gem-rainbow-3.0.0-75c946",
+        "versionInfo": "3.0.0",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "MIT",
+        "copyrightText": "Copyright (c) Marcin Kulik",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:gem/rainbow@3.0.0"
+          }
+        ]
+      },
+      {
+        "name": "jekyll-relative-links",
+        "SPDXID": "SPDXRef-gem-jekyll-relative-links-0.6.0-75c946",
+        "versionInfo": "0.6.0",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "MIT",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:gem/jekyll-relative-links@0.6.0"
+          }
+        ]
+      },
+      {
+        "name": "github-pages",
+        "SPDXID": "SPDXRef-gem-github-pages-202-75c946",
+        "versionInfo": "202",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "MIT",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:gem/github-pages@202"
+          }
+        ]
+      },
+      {
+        "name": "rouge",
+        "SPDXID": "SPDXRef-gem-rouge-3.11.0-75c946",
+        "versionInfo": "3.11.0",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "MIT OR BSD-2-Clause",
+        "copyrightText": "CoprimeQ CellGroupData ColorDistance, Copyright (c) 2006-2012 by the, Copyright (c) 2012 Jeanine Adkisson.",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:gem/rouge@3.11.0"
+          }
+        ]
+      },
+      {
+        "name": "jekyll-optional-front-matter",
+        "SPDXID": "SPDXRef-gem-jekyll-optional-front-matter-0.3.0-75c946",
+        "versionInfo": "0.3.0",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "MIT",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:gem/jekyll-optional-front-matter@0.3.0"
+          }
+        ]
+      },
+      {
+        "name": "activesupport",
+        "SPDXID": "SPDXRef-gem-activesupport-4.2.11.1-75c946",
+        "versionInfo": "4.2.11.1",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "MIT",
+        "copyrightText": "Copyright (c) 2005-2014 David Heinemeier Hansson",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:gem/activesupport@4.2.11.1"
+          }
+        ]
+      },
+      {
+        "name": "ffi",
+        "SPDXID": "SPDXRef-gem-ffi-1.11.2-75c946",
+        "versionInfo": "1.11.2",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "BSD-3-Clause AND MIT",
+        "copyrightText": "(c) 2003-2004 Randolph Chung <tausq@debian.org>, (c) 2006 Free Software Foundation, Inc., (c) 2008 Red Hat, Inc., (c) 2011 Anthony Green, Copyright (c) 1989, 1991 Free Software Foundation, Inc., Copyright (c) 1992-1996, 1998-2012 Free Software Foundation, Inc., Copyright (c) 1992-2009 by P.J. Plauger., Copyright (c) 1994 X Consortium, Copyright (c) 1994-2014 Free Software Foundation, Inc., Copyright (c) 1996 Red Hat, Inc., Copyright (c) 1996-2003 Red Hat, Inc., Copyright (c) 1996-2003, 2007, 2008 Red Hat, Inc., Copyright (c) 1996-2003, 2010 Red Hat, Inc., Copyright (c) 1996-2004 Red Hat, Inc., Copyright (c) 1996-2011 Anthony Green, Red Hat, Inc and others., Copyright (c) 1996-2014 Free Software Foundation, Inc., Copyright (c) 1996-2015 Free Software Foundation, Inc., Copyright (c) 1996-2019 Anthony Green, Red Hat, Inc and others., Copyright (c) 1996, 1997, 2003, 2004, 2008 Red Hat, Inc., Copyright (c) 1996, 1998 Red Hat, Inc., Copyright (c) 1996, 1998, 1999, 2001, 2007, 2008 Red Hat, Inc., Copyright (c) 1996, 1998, 2005 Red Hat, Inc., Copyright (c) 1996, 1998, 2005, 2007, 2009, 2010 Red Hat, Inc., Copyright (c) 1996, 1998, 2007 Red Hat, Inc., Copyright (c) 1996, 2003-2004, 2007-2008 Red Hat, Inc., Copyright (c) 1996, 2007, 2008, 2011 Red Hat, Inc., Copyright (c) 1996,1998,2001-2003,2005,2008,2010 Red Hat, Inc., Copyright (c) 1998 Cygnus Solutions, Copyright (c) 1998 Geoffrey Keating, Copyright (c) 1998, 2001, 2007, 2008 Red Hat, Inc., Copyright (c) 1998, 2001, 2007, 2008, 2011, 2014 Red Hat, Copyright (c) 1998, 2007, 2008, 2012 Red Hat, Inc., Copyright (c) 1998, 2008 Red Hat, Inc., Copyright (c) 1998, 2008, 2011 Red Hat, Inc., Copyright (c) 1998, 2012 Andreas Schwab, Copyright (c) 1999-2018 Free Software Foundation, Inc., Copyright (c) 1999, 2007, 2008 Red Hat, Inc., Copyright (c) 1999, 2008 Red Hat, Inc., Copyright (c) 2000 Hewlett Packard Company, Copyright (c) 2000 John Hornkvist, Copyright (c) 2000 Software AG, Copyright (c) 2000, 2003, 2004, 2008 Red Hat, Inc., Copyright (c) 2000, 2007 Software AG, Copyright (c) 2001 John Hornkvist, Copyright (c) 2002 Bo Thorsen, Copyright (c) 2002 Bo Thorsen <bo@suse.de>, Copyright (c) 2002 Ranjit Mathew, Copyright (c) 2002 Roger Sayle, Copyright (c) 2002-2008, 2012 Kaz Kojima, Copyright (c) 2002, 2003, 2004, 2006, 2008 Kaz Kojima, Copyright (c) 2002, 2003, 2004, 2010, Free Software Foundation, Inc., Copyright (c) 2002, 2003, 2009 Free Software Foundation, Inc., Copyright (c) 2002, 2006, 2007, 2009, 2010 Free Software Foundation, Inc., Copyright (c) 2002, 2007 Bo Thorsen <bo@suse.de>, Copyright (c) 2002, 2009 Free Software Foundation, Inc., Copyright (c) 2003 Jakub Jelinek <jakub@redhat.com>, Copyright (c) 2003-2004, 2006, 2009-2017 Free Software Foundation, Inc., Copyright (c) 2003, 2004, 2006, 2007, 2012 Kaz Kojima, Copyright (c) 2003, 2004, 2006, 2008 Kaz Kojima, Copyright (c) 2003, 2005, 2008, 2009, 2010, 2011, 2014, 2019 Free Software Foundation, Inc., Copyright (c) 2003, 2006, 2009, 2010, 2014 Free Software Foundation, Inc., Copyright (c) 2003, 2006, 2009, 2010, 2014, 2018 Free Software Foundation, Inc., Copyright (c) 2004 Anthony Green, Copyright (c) 2004 Renesas Technology., Copyright (c) 2004 Simon Posnjak, Copyright (c) 2004-2015 Free Software Foundation, Inc., Copyright (c) 2004, 2005, 2007 Free Software Foundation, Inc., Copyright (c) 2004, 2007 Free Software Foundation, Inc., Copyright (c) 2004, 2010 Free Software Foundation, Inc., Copyright (c) 2005 Axis Communications AB, Copyright (c) 2005 Free Software Foundation, Inc., Copyright (c) 2006 Free Software Foundation, Inc., Copyright (c) 2007 Free Software Foundation, Inc., Copyright (c) 2007, 2008 Evan Phoenix, Copyright (c) 2007, 2008 Free Software Foundation, Inc, Copyright (c) 2007, 2008, 2010 Free Software Foundation, Inc, Copyright (c) 2007, 2009, 2010 Free Software Foundation, Inc, Copyright (c) 2007, 2009, 2010 Red Hat, Inc., Copyright (c) 2008 Anthony Green, Copyright (c) 2008 David Daney, Copyright (c) 2008 Free Software Foundation, Inc., Copyright (c) 2008 Guido U. Draheim <guidod@gmx.de>, Copyright (c) 2008 Luc Heinrich <luc@honk-honk.com>, Copyright (c) 2008 Matteo Frigo, Copyright (c) 2008 Mike Dalessio, Copyright (c) 2008 Red Hat, Inc., Copyright (c) 2008 Steven G. Johnson <stevenj@alum.mit.edu>, Copyright (c) 2008-2010 JRuby project, Copyright (c) 2008-2010 Wayne Meissner, Copyright (c) 2008-2012 Ruby-FFI, Copyright (c) 2008-2013, Ruby FFI project, Copyright (c) 2008-2016, Ruby FFI project, Copyright (c) 2008, 2009 Andrea Fazzi, Copyright (c) 2008, 2009 Luc Heinrich, Copyright (c) 2008, 2009 Wayne Meissner, Copyright (c) 2008, 2009, Wayne Meissner, Copyright (c) 2008, 2010 Free Software Foundation, Inc., Copyright (c) 2008, 2010 Red Hat, Inc., Copyright (c) 2008, 2010, 2018 Anthony Green, Copyright (c) 2008, Luc Heinrich <luc@honk-honk.com>, Copyright (c) 2009 Alan Jenkins <alan-jenkins@tuffmail.co.uk>, Copyright (c) 2009 Aman Gupta <aman@tmm1.net>, Copyright (c) 2009 Andrea Fazzi <andrea.fazzi@alcacoop.it>, Copyright (c) 2009 Bradley Smith <brad@brad-smith.co.uk>, Copyright (c) 2009 Guido U. Draheim <guidod@gmx.de>, Copyright (c) 2009 Jake Douglas <jake@shiftedlabs.com>, Copyright (c) 2009 Luc Heinrich, Copyright (c) 2009 Luc Heinrich <luc@honk-honk.com>, Copyright (c) 2009 the Initial Developer., Copyright (c) 2009-2011 Wayne Meissner, Copyright (c) 2009, 2010 Wayne Meissner, Copyright (c) 2009, 2010, 2011, 2012 ARM Ltd., Copyright (c) 2009, Aman Gupta., Copyright (c) 2009, Luc Heinrich, Copyright (c) 2009, Luc Heinrich <luc@honk-honk.com>, Copyright (c) 2009, Mike Dalessio <mike.dalessio@gmail.com>, Copyright (c) 2009, Wayne Meissner, Copyright (c) 2010 CodeSourcery, Copyright (c) 2010 Free Software Foundation, Inc., Copyright (c) 2010 Rhys Ulerich <rhys.ulerich@gmail.com>, Copyright (c) 2010 Wayne Meissner, Copyright (c) 2010-2015 Free Software Foundation, Inc., Copyright (c) 2010-2018 Free Software Foundation, Inc., Copyright (c) 2010, Wayne Meissner, Copyright (c) 2011 Anthony Green, Copyright (c) 2011 Free Software Foundation, Copyright (c) 2011 Kyle Moffett, Copyright (c) 2011 Maarten Bosmans <mkbosmans@gmail.com>, Copyright (c) 2011 Plausible Labs Cooperative, Inc., Copyright (c) 2011 Tilera Corp., Copyright (c) 2011 Timothy Wall, Copyright (c) 2011, 2012 Anthony Green, Copyright (c) 2011, 2012, 2013 Anthony Green, Copyright (c) 2011, 2013 Anthony Green, Copyright (c) 2011, 2014 Anthony Green, Copyright (c) 2011, 2018 Anthony Green, Copyright (c) 2012 Alan Hourihane, Copyright (c) 2012 Alexandre K. I. de Mendonca <alexandre.keunecke@gmail.com>, Copyright (c) 2012 Alexandre K. I. de Mendonca <alexandre.keunecke@gmail.com> , Paulo Pizarro <paulo.pizarro@gmail.com>, Copyright (c) 2012 Anthony Green, Copyright (c) 2012 Free Software Foundation, Inc., Copyright (c) 2012 Tilera Corp., Copyright (c) 2012, 2013 Anthony Green, Copyright (c) 2012, 2013 Anthony Green Target, Copyright (c) 2012, 2013 Xilinx, Inc, Copyright (c) 2012, 2013, 2018 Anthony Green, Copyright (c) 2012, 2014, 2018 Anthony Green, Copyright (c) 2012, 2016 Thorsten Glaser, Copyright (c) 2012, Wayne Meissner, Copyright (c) 2013, Copyright (c) 2013 IBM, Copyright (c) 2013 Imagination Technologies, Copyright (c) 2013 Imagination Technologies Ltd., Copyright (c) 2013 Mentor Graphics., Copyright (c) 2013 Miodrag Vallat. <miod@openbsd.org>, Copyright (c) 2013 Synopsys, Inc. (www.synopsys.com), Copyright (c) 2013 Synposys, Inc. (www.synopsys.com), Copyright (c) 2013 Tensilica, Inc., Copyright (c) 2014 Free Software Foundation, Inc., Copyright (c) 2014 Mike Frysinger <vapier@gentoo.org>, Copyright (c) 2014 Red Hat, Inc., Copyright (c) 2014 Sebastian Macke <sebastian@macke.de>, Copyright (c) 2014 Tsukasa Oi, Copyright (c) 2015 Michael Knyszek <mknyszek@berkeley.edu> 2015 Andrew Waterman <waterman@cs.berkeley.edu> 2018 Stef O'Rear <sorear2@gmail.com>, Copyright (c) 2015 Michael Petch <mpetch@capp-sysware.com>, Copyright (c) 2017 Alexey Kopytov, Copyright (c) 2017 Anthony Green, Copyright (c) 2018 Anthony Green, Copyright (c) 2019 Microsoft Corporation., Copyright 1992-2017 Free Software Foundation, Inc., Copyright 1993 Bill Triggs <Bill.Triggs@inrialpes.fr>, Copyright 1995-2017 Bruno Haible <bruno@clisp.org>, Copyright 2008, 2010, 2011 Red Hat, Inc., copyrighted by the Free Software Foundation",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:gem/ffi@1.11.2"
+          }
+        ]
+      },
+      {
+        "name": "sass-listen",
+        "SPDXID": "SPDXRef-gem-sass-listen-4.0.0-75c946",
+        "versionInfo": "4.0.0",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "MIT",
+        "copyrightText": "Copyright (c) 2013 Thibaud Guillaume-Gentil",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:gem/sass-listen@4.0.0"
+          }
+        ]
+      },
+      {
+        "name": "mini_portile2",
+        "SPDXID": "SPDXRef-gem-miniportile2-2.4.0-75c946",
+        "versionInfo": "2.4.0",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "MIT",
+        "copyrightText": "Copyright (c) 2011-2016 Luis Lavena and Mike Dalessio",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:gem/mini_portile2@2.4.0"
+          }
+        ]
+      },
+      {
+        "name": "jekyll-github-metadata",
+        "SPDXID": "SPDXRef-gem-jekyll-github-metadata-2.12.1-75c946",
+        "versionInfo": "2.12.1",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "MIT",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:gem/jekyll-github-metadata@2.12.1"
+          }
+        ]
+      },
+      {
+        "name": "ruby-enum",
+        "SPDXID": "SPDXRef-gem-ruby-enum-0.7.2-75c946",
+        "versionInfo": "0.7.2",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "MIT",
+        "copyrightText": "Copyright (c) 2013-2016 Daniel Doubrovkine., Copyright (c) 2013-2016, Daniel Doubrovkine and Contributors",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:gem/ruby-enum@0.7.2"
+          }
+        ]
+      },
+      {
+        "name": "gemoji",
+        "SPDXID": "SPDXRef-gem-gemoji-3.0.1-75c946",
+        "versionInfo": "3.0.1",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "MIT",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:gem/gemoji@3.0.1"
+          }
+        ]
+      },
+      {
+        "name": "jekyll",
+        "SPDXID": "SPDXRef-gem-jekyll-3.8.5-75c946",
+        "versionInfo": "3.8.5",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "MIT",
+        "copyrightText": "Copyright (c) 2008-2018 Tom Preston-Werner and Jekyll contributors",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:gem/jekyll@3.8.5"
+          }
+        ]
+      },
+      {
+        "name": "commonmarker",
+        "SPDXID": "SPDXRef-gem-commonmarker-0.17.13-75c946",
+        "versionInfo": "0.17.13",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "MIT",
+        "copyrightText": "Copyright (c) 2015 Garen J. Torikian",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:gem/commonmarker@0.17.13"
+          }
+        ]
+      },
+      {
+        "name": "jekyll-theme-cayman",
+        "SPDXID": "SPDXRef-gem-jekyll-theme-cayman-0.1.1-75c946",
+        "versionInfo": "0.1.1",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "CC0-1.0",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:gem/jekyll-theme-cayman@0.1.1"
+          }
+        ]
+      },
+      {
+        "name": "jekyll-theme-dinky",
+        "SPDXID": "SPDXRef-gem-jekyll-theme-dinky-0.1.1-75c946",
+        "versionInfo": "0.1.1",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "CC0-1.0",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:gem/jekyll-theme-dinky@0.1.1"
+          }
+        ]
+      },
+      {
+        "name": "jekyll-theme-slate",
+        "SPDXID": "SPDXRef-gem-jekyll-theme-slate-0.1.1-75c946",
+        "versionInfo": "0.1.1",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "CC0-1.0",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:gem/jekyll-theme-slate@0.1.1"
+          }
+        ]
+      },
+      {
+        "name": "ethon",
+        "SPDXID": "SPDXRef-gem-ethon-0.12.0-75c946",
+        "versionInfo": "0.12.0",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "MIT",
+        "copyrightText": "Copyright (c) 2012-2016 Hans Hasselberg, Copyright (c) 2012-2016 Hans Hasselberg (http://www.hans.io)",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:gem/ethon@0.12.0"
+          }
+        ]
+      },
+      {
+        "name": "thread_safe",
+        "SPDXID": "SPDXRef-gem-threadsafe-0.3.6-75c946",
+        "versionInfo": "0.3.6",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "Apache-2.0",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:gem/thread_safe@0.3.6"
+          }
+        ]
+      },
+      {
+        "name": "jekyll-theme-architect",
+        "SPDXID": "SPDXRef-gem-jekyll-theme-architect-0.1.1-75c946",
+        "versionInfo": "0.1.1",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "CC0-1.0",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:gem/jekyll-theme-architect@0.1.1"
+          }
+        ]
+      },
+      {
+        "name": "minima",
+        "SPDXID": "SPDXRef-gem-minima-2.5.0-75c946",
+        "versionInfo": "2.5.0",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "MIT",
+        "copyrightText": "Copyright (c) 2016-present Parker Moore",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:gem/minima@2.5.0"
+          }
+        ]
+      },
+      {
+        "name": "jekyll-watch",
+        "SPDXID": "SPDXRef-gem-jekyll-watch-2.2.1-75c946",
+        "versionInfo": "2.2.1",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "MIT",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:gem/jekyll-watch@2.2.1"
+          }
+        ]
+      },
+      {
+        "name": "dnsruby",
+        "SPDXID": "SPDXRef-gem-dnsruby-1.61.3-75c946",
+        "versionInfo": "1.61.3",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "Apache-2.0",
+        "copyrightText": "Copyright (c) 2002, Rob Brown., Copyright (c) 2008, AlexD (Nominet UK), Copyright 2007 Nominet UK, Copyright 2008 Nominet UK, Copyright 2009 Nominet UK, Copyright 2015 Verisign, Copyright 2018 Caerketton Tech Ltd, Portions Copyright (c) 2005, Olaf M Kolkman. Ruby",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:gem/dnsruby@1.61.3"
+          }
+        ]
+      },
+      {
+        "name": "jekyll-remote-theme",
+        "SPDXID": "SPDXRef-gem-jekyll-remote-theme-0.4.0-75c946",
+        "versionInfo": "0.4.0",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "MIT",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:gem/jekyll-remote-theme@0.4.0"
+          }
+        ]
+      },
+      {
+        "name": "nokogiri",
+        "SPDXID": "SPDXRef-gem-nokogiri-1.10.8-75c946",
+        "versionInfo": "1.10.8",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "copyrightText": "(c) Copyright 2002-2005, Andy Clark., Copyright (c) 1991 Free Software Foundation, Inc., Copyright (c) 1995-2017 Jean-loup Gailly and Mark Adler, Copyright (c) 1998-2003 Daniel Veillard., Copyright (c) 1998-2012 Daniel Veillard., Copyright (c) 2001-2002 Daniel Veillard., Copyright (c) 2001-2002 Thomas Broyer, Charlie Bozeman and Daniel Veillard., Copyright (c) 2001-2002, SourceForge ISO-RELAX Project (ASAMI Tomoharu, Daisuke Okajima, Kohsuke Kawaguchi, and MURATA Makoto), Copyright (c) 2001-2003 Thai Open Source Software Center Ltd, Copyright 2008 2018 by Aaron Patterson, Mike Dalessio, Charles Nutter, Sergio Arbeo, Patrick Mahoney, Yoko Harada, Akinori MUSHA, John Shahid, Lars Kanis, copyrighted by the Free Software Foundation",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:gem/nokogiri@1.10.8"
+          }
+        ]
+      },
+      {
+        "name": "eventmachine",
+        "SPDXID": "SPDXRef-gem-eventmachine-1.2.7-75c946",
+        "versionInfo": "1.2.7",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "Ruby OR (GPL-2.0 AND GPL-2.0-only) OR (GPL-2.0 AND Ruby) OR (GPL-2.0-only AND Ruby)",
+        "copyrightText": "Copyright (c) 1989, 1991 Free Software Foundation, Inc., Copyright (c) 2000-2005 by Minero Aoki, Copyright (c) 2006-07 by Francis Cianfrocca., Copyright (c) 2006-08 by Francis Cianfrocca., Copyright (c) 2007 by Francis Cianfrocca., Copyright (c) 2007 by Tony Arcieri., copyrighted by the Free Software Foundation",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:gem/eventmachine@1.2.7"
+          }
+        ]
+      },
+      {
+        "name": "listen",
+        "SPDXID": "SPDXRef-gem-listen-3.1.5-75c946",
+        "versionInfo": "3.1.5",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "MIT",
+        "copyrightText": "Copyright (c) 2013 Thibaud Guillaume-Gentil",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:gem/listen@3.1.5"
+          }
+        ]
+      },
+      {
+        "name": "em-websocket",
+        "SPDXID": "SPDXRef-gem-em-websocket-0.5.1-75c946",
+        "versionInfo": "0.5.1",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "MIT",
+        "copyrightText": "Copyright (c) 2009-2013 Ilya Grigorik, Martyn Loughran",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:gem/em-websocket@0.5.1"
+          }
+        ]
+      },
+      {
+        "name": "jekyll-feed",
+        "SPDXID": "SPDXRef-gem-jekyll-feed-0.11.0-75c946",
+        "versionInfo": "0.11.0",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "MIT",
+        "copyrightText": "Copyright (c) 2015-present Ben Balter and jekyll-feed contributors",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:gem/jekyll-feed@0.11.0"
+          }
+        ]
+      },
+      {
+        "name": "jekyll-readme-index",
+        "SPDXID": "SPDXRef-gem-jekyll-readme-index-0.2.0-75c946",
+        "versionInfo": "0.2.0",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "MIT",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:gem/jekyll-readme-index@0.2.0"
+          }
+        ]
+      },
+      {
+        "name": "jekyll-sitemap",
+        "SPDXID": "SPDXRef-gem-jekyll-sitemap-1.2.0-75c946",
+        "versionInfo": "1.2.0",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "MIT",
+        "copyrightText": "Copyright (c) 2014-present, GitHub, inc.",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:gem/jekyll-sitemap@1.2.0"
+          }
+        ]
+      },
+      {
+        "name": "jekyll-theme-hacker",
+        "SPDXID": "SPDXRef-gem-jekyll-theme-hacker-0.1.1-75c946",
+        "versionInfo": "0.1.1",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "CC0-1.0",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:gem/jekyll-theme-hacker@0.1.1"
+          }
+        ]
+      },
+      {
+        "name": "jekyll-theme-minimal",
+        "SPDXID": "SPDXRef-gem-jekyll-theme-minimal-0.1.1-75c946",
+        "versionInfo": "0.1.1",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "CC0-1.0",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:gem/jekyll-theme-minimal@0.1.1"
+          }
+        ]
+      },
+      {
+        "name": "execjs",
+        "SPDXID": "SPDXRef-gem-execjs-2.7.0-75c946",
+        "versionInfo": "2.7.0",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "MIT",
+        "copyrightText": "Copyright (c) 2015-2016 Josh Peek, Copyright (c) 2015-2016 Sam Stephenson",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:gem/execjs@2.7.0"
+          }
+        ]
+      },
+      {
+        "name": "colorator",
+        "SPDXID": "SPDXRef-gem-colorator-1.1.0-75c946",
+        "versionInfo": "1.1.0",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "MIT",
+        "copyrightText": "Copyright (c) Parker Moore",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:gem/colorator@1.1.0"
+          }
+        ]
+      },
+      {
+        "name": "jekyll-avatar",
+        "SPDXID": "SPDXRef-gem-jekyll-avatar-0.6.0-75c946",
+        "versionInfo": "0.6.0",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "MIT",
+        "copyrightText": "Copyright (c) 2016 Ben Balter",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:gem/jekyll-avatar@0.6.0"
+          }
+        ]
+      },
+      {
+        "name": "jekyll-seo-tag",
+        "SPDXID": "SPDXRef-gem-jekyll-seo-tag-2.5.0-75c946",
+        "versionInfo": "2.5.0",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "MIT",
+        "copyrightText": "Copyright (c) 2015-present Ben Balter",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:gem/jekyll-seo-tag@2.5.0"
+          }
+        ]
+      },
+      {
+        "name": "jekyll-theme-time-machine",
+        "SPDXID": "SPDXRef-gem-jekyll-theme-time-machine-0.1.1-75c946",
+        "versionInfo": "0.1.1",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "CC0-1.0",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:gem/jekyll-theme-time-machine@0.1.1"
+          }
+        ]
+      },
+      {
+        "name": "com.github.pawan128/github-slideshow",
+        "SPDXID": "SPDXRef-github-pawan128-github-slideshow-master-e23d34",
+        "versionInfo": "master",
+        "downloadLocation": "git+https://github.com/pawan128/github-slideshow",
+        "filesAnalyzed": false,
+        "licenseDeclared": "MIT",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:github/pawan128/github-slideshow@master"
+          }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "spdxElementId": "SPDXRef-github-pawan128-github-slideshow-master-e23d34",
+        "relatedSpdxElement": "SPDXRef-npm-reveal.js-3.9.2-a5f57b",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-pawan128-github-slideshow-master-e23d34",
+        "relatedSpdxElement": "SPDXRef-gem-jekyll-theme-leap-day-0.1.1-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-pawan128-github-slideshow-master-e23d34",
+        "relatedSpdxElement": "SPDXRef-gem-jekyll-relative-links-0.6.0-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-pawan128-github-slideshow-master-e23d34",
+        "relatedSpdxElement": "SPDXRef-gem-sass-listen-4.0.0-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-pawan128-github-slideshow-master-e23d34",
+        "relatedSpdxElement": "SPDXRef-gem-em-websocket-0.5.1-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-pawan128-github-slideshow-master-e23d34",
+        "relatedSpdxElement": "SPDXRef-gem-colorator-1.1.0-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-pawan128-github-slideshow-master-e23d34",
+        "relatedSpdxElement": "SPDXRef-gem-jekyll-theme-tactile-0.1.1-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-pawan128-github-slideshow-master-e23d34",
+        "relatedSpdxElement": "SPDXRef-gem-unicode-displaywidth-1.6.0-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-pawan128-github-slideshow-master-e23d34",
+        "relatedSpdxElement": "SPDXRef-gem-jekyll-theme-architect-0.1.1-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-pawan128-github-slideshow-master-e23d34",
+        "relatedSpdxElement": "SPDXRef-gem-nokogiri-1.10.8-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-pawan128-github-slideshow-master-e23d34",
+        "relatedSpdxElement": "SPDXRef-gem-github-pages-health-check-1.16.1-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-pawan128-github-slideshow-master-e23d34",
+        "relatedSpdxElement": "SPDXRef-gem-tzinfo-1.2.5-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-pawan128-github-slideshow-master-e23d34",
+        "relatedSpdxElement": "SPDXRef-gem-rb-inotify-0.10.0-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-pawan128-github-slideshow-master-e23d34",
+        "relatedSpdxElement": "SPDXRef-gem-jekyll-gist-1.5.0-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-pawan128-github-slideshow-master-e23d34",
+        "relatedSpdxElement": "SPDXRef-gem-yell-2.2.0-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-pawan128-github-slideshow-master-e23d34",
+        "relatedSpdxElement": "SPDXRef-gem-sass-3.7.4-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-pawan128-github-slideshow-master-e23d34",
+        "relatedSpdxElement": "SPDXRef-gem-ffi-1.11.2-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-pawan128-github-slideshow-master-e23d34",
+        "relatedSpdxElement": "SPDXRef-gem-jekyll-sitemap-1.2.0-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-pawan128-github-slideshow-master-e23d34",
+        "relatedSpdxElement": "SPDXRef-gem-jekyll-avatar-0.6.0-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-pawan128-github-slideshow-master-e23d34",
+        "relatedSpdxElement": "SPDXRef-gem-rubydep-1.5.0-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-pawan128-github-slideshow-master-e23d34",
+        "relatedSpdxElement": "SPDXRef-gem-jekyll-theme-modernist-0.1.1-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-pawan128-github-slideshow-master-e23d34",
+        "relatedSpdxElement": "SPDXRef-gem-jekyll-watch-2.2.1-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-pawan128-github-slideshow-master-e23d34",
+        "relatedSpdxElement": "SPDXRef-gem-jekyll-remote-theme-0.4.0-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-pawan128-github-slideshow-master-e23d34",
+        "relatedSpdxElement": "SPDXRef-gem-jekyll-readme-index-0.2.0-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-pawan128-github-slideshow-master-e23d34",
+        "relatedSpdxElement": "SPDXRef-gem-jekyll-sass-converter-1.5.2-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-pawan128-github-slideshow-master-e23d34",
+        "relatedSpdxElement": "SPDXRef-gem-jekyll-theme-merlot-0.1.1-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-pawan128-github-slideshow-master-e23d34",
+        "relatedSpdxElement": "SPDXRef-gem-jekyll-theme-midnight-0.1.1-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-pawan128-github-slideshow-master-e23d34",
+        "relatedSpdxElement": "SPDXRef-gem-concurrent-ruby-1.1.5-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-pawan128-github-slideshow-master-e23d34",
+        "relatedSpdxElement": "SPDXRef-gem-forwardable-extended-2.6.0-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-pawan128-github-slideshow-master-e23d34",
+        "relatedSpdxElement": "SPDXRef-gem-github-pages-202-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-pawan128-github-slideshow-master-e23d34",
+        "relatedSpdxElement": "SPDXRef-gem-jekyll-optional-front-matter-0.3.0-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-pawan128-github-slideshow-master-e23d34",
+        "relatedSpdxElement": "SPDXRef-gem-dnsruby-1.61.3-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-pawan128-github-slideshow-master-e23d34",
+        "relatedSpdxElement": "SPDXRef-gem-jekyll-swiss-0.4.0-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-pawan128-github-slideshow-master-e23d34",
+        "relatedSpdxElement": "SPDXRef-gem-jekyll-theme-dinky-0.1.1-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-pawan128-github-slideshow-master-e23d34",
+        "relatedSpdxElement": "SPDXRef-gem-jekyll-commonmark-1.3.1-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-pawan128-github-slideshow-master-e23d34",
+        "relatedSpdxElement": "SPDXRef-gem-jekyll-theme-primer-0.5.3-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-pawan128-github-slideshow-master-e23d34",
+        "relatedSpdxElement": "SPDXRef-gem-jekyll-theme-cayman-0.1.1-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-pawan128-github-slideshow-master-e23d34",
+        "relatedSpdxElement": "SPDXRef-gem-eventmachine-1.2.7-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-pawan128-github-slideshow-master-e23d34",
+        "relatedSpdxElement": "SPDXRef-gem-jekyll-theme-minimal-0.1.1-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-pawan128-github-slideshow-master-e23d34",
+        "relatedSpdxElement": "SPDXRef-gem-faraday-0.17.0-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-pawan128-github-slideshow-master-e23d34",
+        "relatedSpdxElement": "SPDXRef-gem-html-pipeline-2.12.2-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-pawan128-github-slideshow-master-e23d34",
+        "relatedSpdxElement": "SPDXRef-gem-rubyzip-2.0.0-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-pawan128-github-slideshow-master-e23d34",
+        "relatedSpdxElement": "SPDXRef-gem-multipart-post-2.1.1-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-pawan128-github-slideshow-master-e23d34",
+        "relatedSpdxElement": "SPDXRef-gem-jekyll-commonmark-ghpages-0.1.6-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-pawan128-github-slideshow-master-e23d34",
+        "relatedSpdxElement": "SPDXRef-gem-commonmarker-0.17.13-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-pawan128-github-slideshow-master-e23d34",
+        "relatedSpdxElement": "SPDXRef-gem-jekyll-seo-tag-2.5.0-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-pawan128-github-slideshow-master-e23d34",
+        "relatedSpdxElement": "SPDXRef-gem-typhoeus-1.3.1-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-pawan128-github-slideshow-master-e23d34",
+        "relatedSpdxElement": "SPDXRef-gem-jekyll-redirect-from-0.14.0-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-pawan128-github-slideshow-master-e23d34",
+        "relatedSpdxElement": "SPDXRef-gem-liquid-4.0.0-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-pawan128-github-slideshow-master-e23d34",
+        "relatedSpdxElement": "SPDXRef-gem-jekyll-paginate-1.1.0-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-pawan128-github-slideshow-master-e23d34",
+        "relatedSpdxElement": "SPDXRef-gem-ruby-enum-0.7.2-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-pawan128-github-slideshow-master-e23d34",
+        "relatedSpdxElement": "SPDXRef-gem-listen-3.1.5-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-pawan128-github-slideshow-master-e23d34",
+        "relatedSpdxElement": "SPDXRef-gem-publicsuffix-3.1.1-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-pawan128-github-slideshow-master-e23d34",
+        "relatedSpdxElement": "SPDXRef-gem-kramdown-1.17.0-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-pawan128-github-slideshow-master-e23d34",
+        "relatedSpdxElement": "SPDXRef-gem-jekyll-default-layout-0.1.4-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-pawan128-github-slideshow-master-e23d34",
+        "relatedSpdxElement": "SPDXRef-gem-coffee-script-2.4.1-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-pawan128-github-slideshow-master-e23d34",
+        "relatedSpdxElement": "SPDXRef-gem-rouge-3.11.0-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-pawan128-github-slideshow-master-e23d34",
+        "relatedSpdxElement": "SPDXRef-gem-gemoji-3.0.1-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-pawan128-github-slideshow-master-e23d34",
+        "relatedSpdxElement": "SPDXRef-gem-octokit-4.14.0-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-pawan128-github-slideshow-master-e23d34",
+        "relatedSpdxElement": "SPDXRef-gem-addressable-2.7.0-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-pawan128-github-slideshow-master-e23d34",
+        "relatedSpdxElement": "SPDXRef-gem-pathutil-0.16.2-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-pawan128-github-slideshow-master-e23d34",
+        "relatedSpdxElement": "SPDXRef-gem-jemoji-0.10.2-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-pawan128-github-slideshow-master-e23d34",
+        "relatedSpdxElement": "SPDXRef-gem-jekyll-mentions-1.4.1-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-pawan128-github-slideshow-master-e23d34",
+        "relatedSpdxElement": "SPDXRef-gem-threadsafe-0.3.6-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-pawan128-github-slideshow-master-e23d34",
+        "relatedSpdxElement": "SPDXRef-gem-jekyll-feed-0.11.0-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-pawan128-github-slideshow-master-e23d34",
+        "relatedSpdxElement": "SPDXRef-gem-terminal-table-1.8.0-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-pawan128-github-slideshow-master-e23d34",
+        "relatedSpdxElement": "SPDXRef-gem-safeyaml-1.0.5-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-pawan128-github-slideshow-master-e23d34",
+        "relatedSpdxElement": "SPDXRef-gem-parallel-1.19.0-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-pawan128-github-slideshow-master-e23d34",
+        "relatedSpdxElement": "SPDXRef-gem-httpparser.rb-0.6.0-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-pawan128-github-slideshow-master-e23d34",
+        "relatedSpdxElement": "SPDXRef-gem-minitest-5.13.0-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-pawan128-github-slideshow-master-e23d34",
+        "relatedSpdxElement": "SPDXRef-gem-rainbow-3.0.0-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-pawan128-github-slideshow-master-e23d34",
+        "relatedSpdxElement": "SPDXRef-gem-activesupport-4.2.11.1-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-pawan128-github-slideshow-master-e23d34",
+        "relatedSpdxElement": "SPDXRef-gem-minima-2.5.0-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-pawan128-github-slideshow-master-e23d34",
+        "relatedSpdxElement": "SPDXRef-gem-mercenary-0.3.6-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-pawan128-github-slideshow-master-e23d34",
+        "relatedSpdxElement": "SPDXRef-gem-coffee-script-source-1.11.1-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-pawan128-github-slideshow-master-e23d34",
+        "relatedSpdxElement": "SPDXRef-gem-jekyll-theme-slate-0.1.1-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-pawan128-github-slideshow-master-e23d34",
+        "relatedSpdxElement": "SPDXRef-gem-jekyll-theme-hacker-0.1.1-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-pawan128-github-slideshow-master-e23d34",
+        "relatedSpdxElement": "SPDXRef-gem-jekyll-theme-time-machine-0.1.1-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-pawan128-github-slideshow-master-e23d34",
+        "relatedSpdxElement": "SPDXRef-gem-html-proofer-3.14.1-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-pawan128-github-slideshow-master-e23d34",
+        "relatedSpdxElement": "SPDXRef-gem-jekyll-titles-from-headings-0.5.1-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-pawan128-github-slideshow-master-e23d34",
+        "relatedSpdxElement": "SPDXRef-gem-miniportile2-2.4.0-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-pawan128-github-slideshow-master-e23d34",
+        "relatedSpdxElement": "SPDXRef-gem-jekyll-github-metadata-2.12.1-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-pawan128-github-slideshow-master-e23d34",
+        "relatedSpdxElement": "SPDXRef-gem-jekyll-3.8.5-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-pawan128-github-slideshow-master-e23d34",
+        "relatedSpdxElement": "SPDXRef-gem-sawyer-0.8.2-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-pawan128-github-slideshow-master-e23d34",
+        "relatedSpdxElement": "SPDXRef-gem-i18n-0.9.5-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-pawan128-github-slideshow-master-e23d34",
+        "relatedSpdxElement": "SPDXRef-gem-ethon-0.12.0-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-pawan128-github-slideshow-master-e23d34",
+        "relatedSpdxElement": "SPDXRef-gem-execjs-2.7.0-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-pawan128-github-slideshow-master-e23d34",
+        "relatedSpdxElement": "SPDXRef-gem-jekyll-coffeescript-1.1.1-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-pawan128-github-slideshow-master-e23d34",
+        "relatedSpdxElement": "SPDXRef-gem-rb-fsevent-0.10.3-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-DOCUMENT",
+        "relatedSpdxElement": "SPDXRef-github-pawan128-github-slideshow-master-e23d34",
+        "relationshipType": "DESCRIBES"
+      }
+    ]
+  }
+}

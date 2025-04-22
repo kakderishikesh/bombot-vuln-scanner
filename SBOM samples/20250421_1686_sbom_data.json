@@ -1,0 +1,356 @@
+{
+  "sbom": {
+    "spdxVersion": "SPDX-2.3",
+    "dataLicense": "CC0-1.0",
+    "SPDXID": "SPDXRef-DOCUMENT",
+    "name": "com.github.maryamismailova/sfg-petclinic",
+    "documentNamespace": "https://spdx.org/spdxdocs/protobom/f28d4e30-ef0e-4626-bd39-ed03e06be658",
+    "comment": "Exact versions could not be resolved for some packages. For more information: https://docs.github.com/en/code-security/supply-chain-security/understanding-your-software-supply-chain/about-the-dependency-graph#dependencies-included.",
+    "creationInfo": {
+      "creators": [
+        "Tool: protobom-v0.0.0-20250417160448-234c8d241855+dirty",
+        "Tool: GitHub.com-Dependency-Graph"
+      ],
+      "created": "2025-04-21T14:10:41Z"
+    },
+    "packages": [
+      {
+        "name": "org.apache.maven.plugins:maven-release-plugin",
+        "SPDXID": "SPDXRef-maven-org.apache.maven.plugins-maven-release-plugin-75c946",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:maven/org.apache.maven.plugins/maven-release-plugin"
+          }
+        ]
+      },
+      {
+        "name": "org.springframework.boot:spring-boot-starter-test",
+        "SPDXID": "SPDXRef-maven-org.springframework.boot-spring-boot-starter-test-75c946",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:maven/org.springframework.boot/spring-boot-starter-test"
+          }
+        ]
+      },
+      {
+        "name": "org.webjars:bootstrap",
+        "SPDXID": "SPDXRef-maven-org.webjars-bootstrap-3.3.6-75c946",
+        "versionInfo": "3.3.6",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "Apache-2.0",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:maven/org.webjars/bootstrap@3.3.6"
+          }
+        ]
+      },
+      {
+        "name": "org.springframework.boot:spring-boot-maven-plugin",
+        "SPDXID": "SPDXRef-maven-org.springframework.boot-spring-boot-maven-plugin-75c946",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:maven/org.springframework.boot/spring-boot-maven-plugin"
+          }
+        ]
+      },
+      {
+        "name": "org.springframework.boot:spring-boot-starter-data-jpa",
+        "SPDXID": "SPDXRef-maven-org.springframework.boot-spring-boot-starter-data-jpa-75c946",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:maven/org.springframework.boot/spring-boot-starter-data-jpa"
+          }
+        ]
+      },
+      {
+        "name": "org.springframework.boot:spring-boot-devtools",
+        "SPDXID": "SPDXRef-maven-org.springframework.boot-spring-boot-devtools-75c946",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:maven/org.springframework.boot/spring-boot-devtools"
+          }
+        ]
+      },
+      {
+        "name": "org.springframework.boot:spring-boot-starter-actuator",
+        "SPDXID": "SPDXRef-maven-org.springframework.boot-spring-boot-starter-actuator-75c946",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:maven/org.springframework.boot/spring-boot-starter-actuator"
+          }
+        ]
+      },
+      {
+        "name": "org.webjars:webjars-locator-core",
+        "SPDXID": "SPDXRef-maven-org.webjars-webjars-locator-core-75c946",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:maven/org.webjars/webjars-locator-core"
+          }
+        ]
+      },
+      {
+        "name": "org.webjars:jquery-ui",
+        "SPDXID": "SPDXRef-maven-org.webjars-jquery-ui-1.11.4-75c946",
+        "versionInfo": "1.11.4",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "MIT",
+        "copyrightText": "Copyright 2014 jQuery Foundation and other contributors, Copyright 2015 jQuery Foundation and other contributors, Copyright jQuery Foundation and other contributors",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:maven/org.webjars/jquery-ui@1.11.4"
+          }
+        ]
+      },
+      {
+        "name": "org.projectlombok:lombok",
+        "SPDXID": "SPDXRef-maven-org.projectlombok-lombok-75c946",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:maven/org.projectlombok/lombok"
+          }
+        ]
+      },
+      {
+        "name": "mysql:mysql-connector-java",
+        "SPDXID": "SPDXRef-maven-mysql-mysql-connector-java-75c946",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:maven/mysql/mysql-connector-java"
+          }
+        ]
+      },
+      {
+        "name": "org.springframework.boot:spring-boot-starter-thymeleaf",
+        "SPDXID": "SPDXRef-maven-org.springframework.boot-spring-boot-starter-thymeleaf-75c946",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:maven/org.springframework.boot/spring-boot-starter-thymeleaf"
+          }
+        ]
+      },
+      {
+        "name": "com.h2database:h2",
+        "SPDXID": "SPDXRef-maven-com.h2database-h2-75c946",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:maven/com.h2database/h2"
+          }
+        ]
+      },
+      {
+        "name": "org.springframework.boot:spring-boot-starter-web",
+        "SPDXID": "SPDXRef-maven-org.springframework.boot-spring-boot-starter-web-75c946",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:maven/org.springframework.boot/spring-boot-starter-web"
+          }
+        ]
+      },
+      {
+        "name": "ro.isdc.wro4j:wro4j-maven-plugin",
+        "SPDXID": "SPDXRef-maven-ro.isdc.wro4j-wro4j-maven-plugin-1.9.0-75c946",
+        "versionInfo": "1.9.0",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "Apache-2.0",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:maven/ro.isdc.wro4j/wro4j-maven-plugin@1.9.0"
+          }
+        ]
+      },
+      {
+        "name": "org.webjars:jquery",
+        "SPDXID": "SPDXRef-maven-org.webjars-jquery-2.2.4-75c946",
+        "versionInfo": "2.2.4",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "MIT",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:maven/org.webjars/jquery@2.2.4"
+          }
+        ]
+      },
+      {
+        "name": "maryam.petclinic:pet-clinic-data",
+        "SPDXID": "SPDXRef-maven-maryam.petclinic-pet-clinic-data-0.0.1-SHAPSHOT-75c946",
+        "versionInfo": "0.0.1-SHAPSHOT",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:maven/maryam.petclinic/pet-clinic-data@0.0.1-SHAPSHOT"
+          }
+        ]
+      },
+      {
+        "name": "com.github.maryamismailova/sfg-petclinic",
+        "SPDXID": "SPDXRef-github-maryamismailova-sfg-petclinic-master-69f58d",
+        "versionInfo": "master",
+        "downloadLocation": "git+https://github.com/maryamismailova/sfg-petclinic",
+        "filesAnalyzed": false,
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:github/maryamismailova/sfg-petclinic@master"
+          }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "spdxElementId": "SPDXRef-github-maryamismailova-sfg-petclinic-master-69f58d",
+        "relatedSpdxElement": "SPDXRef-maven-org.springframework.boot-spring-boot-starter-data-jpa-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-maryamismailova-sfg-petclinic-master-69f58d",
+        "relatedSpdxElement": "SPDXRef-maven-org.webjars-webjars-locator-core-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-maryamismailova-sfg-petclinic-master-69f58d",
+        "relatedSpdxElement": "SPDXRef-maven-org.webjars-jquery-ui-1.11.4-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-maryamismailova-sfg-petclinic-master-69f58d",
+        "relatedSpdxElement": "SPDXRef-maven-org.projectlombok-lombok-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-maryamismailova-sfg-petclinic-master-69f58d",
+        "relatedSpdxElement": "SPDXRef-maven-org.apache.maven.plugins-maven-release-plugin-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-maryamismailova-sfg-petclinic-master-69f58d",
+        "relatedSpdxElement": "SPDXRef-maven-org.springframework.boot-spring-boot-starter-test-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-maryamismailova-sfg-petclinic-master-69f58d",
+        "relatedSpdxElement": "SPDXRef-maven-org.webjars-bootstrap-3.3.6-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-maryamismailova-sfg-petclinic-master-69f58d",
+        "relatedSpdxElement": "SPDXRef-maven-mysql-mysql-connector-java-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-maryamismailova-sfg-petclinic-master-69f58d",
+        "relatedSpdxElement": "SPDXRef-maven-org.springframework.boot-spring-boot-starter-thymeleaf-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-maryamismailova-sfg-petclinic-master-69f58d",
+        "relatedSpdxElement": "SPDXRef-maven-org.springframework.boot-spring-boot-starter-web-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-maryamismailova-sfg-petclinic-master-69f58d",
+        "relatedSpdxElement": "SPDXRef-maven-maryam.petclinic-pet-clinic-data-0.0.1-SHAPSHOT-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-maryamismailova-sfg-petclinic-master-69f58d",
+        "relatedSpdxElement": "SPDXRef-maven-org.webjars-jquery-2.2.4-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-maryamismailova-sfg-petclinic-master-69f58d",
+        "relatedSpdxElement": "SPDXRef-maven-org.springframework.boot-spring-boot-maven-plugin-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-maryamismailova-sfg-petclinic-master-69f58d",
+        "relatedSpdxElement": "SPDXRef-maven-org.springframework.boot-spring-boot-devtools-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-maryamismailova-sfg-petclinic-master-69f58d",
+        "relatedSpdxElement": "SPDXRef-maven-org.springframework.boot-spring-boot-starter-actuator-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-maryamismailova-sfg-petclinic-master-69f58d",
+        "relatedSpdxElement": "SPDXRef-maven-com.h2database-h2-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-maryamismailova-sfg-petclinic-master-69f58d",
+        "relatedSpdxElement": "SPDXRef-maven-ro.isdc.wro4j-wro4j-maven-plugin-1.9.0-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-DOCUMENT",
+        "relatedSpdxElement": "SPDXRef-github-maryamismailova-sfg-petclinic-master-69f58d",
+        "relationshipType": "DESCRIBES"
+      }
+    ]
+  }
+}
