@@ -1,0 +1,58 @@
+{
+  "sbom": {
+    "spdxVersion": "SPDX-2.3",
+    "dataLicense": "CC0-1.0",
+    "SPDXID": "SPDXRef-DOCUMENT",
+    "name": "com.github.davidjhurtado/github-actions-course",
+    "documentNamespace": "https://spdx.org/spdxdocs/protobom/8b1c3860-8b11-4450-8ded-6b819e7ecbcc",
+    "creationInfo": {
+      "creators": [
+        "Tool: protobom-v0.0.0-20250417160448-234c8d241855+dirty",
+        "Tool: GitHub.com-Dependency-Graph"
+      ],
+      "created": "2025-04-21T14:10:22Z"
+    },
+    "packages": [
+      {
+        "name": "actions/checkout",
+        "SPDXID": "SPDXRef-githubactions-actions-checkout-3-75c946",
+        "versionInfo": "3",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:githubactions/actions/checkout@3"
+          }
+        ]
+      },
+      {
+        "name": "com.github.davidjhurtado/github-actions-course",
+        "SPDXID": "SPDXRef-github-davidjhurtado-github-actions-course-main-375fba",
+        "versionInfo": "main",
+        "downloadLocation": "git+https://github.com/davidjhurtado/github-actions-course",
+        "filesAnalyzed": false,
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:github/davidjhurtado/github-actions-course@main"
+          }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "spdxElementId": "SPDXRef-github-davidjhurtado-github-actions-course-main-375fba",
+        "relatedSpdxElement": "SPDXRef-githubactions-actions-checkout-3-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-DOCUMENT",
+        "relatedSpdxElement": "SPDXRef-github-davidjhurtado-github-actions-course-main-375fba",
+        "relationshipType": "DESCRIBES"
+      }
+    ]
+  }
+}

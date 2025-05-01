@@ -1,0 +1,199 @@
+{
+  "sbom": {
+    "spdxVersion": "SPDX-2.3",
+    "dataLicense": "CC0-1.0",
+    "SPDXID": "SPDXRef-DOCUMENT",
+    "name": "com.github.payush/ayush-crowdbotics-370",
+    "documentNamespace": "https://spdx.org/spdxdocs/protobom/d7098333-6a9b-44e6-aab4-482c5ad34e37",
+    "comment": "Exact versions could not be resolved for some packages. For more information: https://docs.github.com/en/code-security/supply-chain-security/understanding-your-software-supply-chain/about-the-dependency-graph#dependencies-included.",
+    "creationInfo": {
+      "creators": [
+        "Tool: protobom-v0.0.0-20250417160448-234c8d241855+dirty",
+        "Tool: GitHub.com-Dependency-Graph"
+      ],
+      "created": "2025-04-21T14:10:39Z"
+    },
+    "packages": [
+      {
+        "name": "django-environ",
+        "SPDXID": "SPDXRef-pypi-django-environ-0.4.4-75c946",
+        "versionInfo": "0.4.4",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "MIT",
+        "copyrightText": "Copyright (c) 2013-2017, Daniele Faraglia",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:pypi/django-environ@0.4.4"
+          }
+        ]
+      },
+      {
+        "name": "whitenoise",
+        "SPDXID": "SPDXRef-pypi-whitenoise-3.3.0-75c946",
+        "versionInfo": "3.3.0",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "MIT",
+        "copyrightText": "Copyright (c) 2013 David Evans, copyright u'2013-, David",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:pypi/whitenoise@3.3.0"
+          }
+        ]
+      },
+      {
+        "name": "waitress",
+        "SPDXID": "SPDXRef-pypi-waitress-1.0.2-75c946",
+        "versionInfo": "1.0.2",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "ZPL-2.1",
+        "copyrightText": "Copyright (c) 2001-2004 Zope Foundation and Contributors., Copyright (c) 2001-2005 Zope Foundation and Contributors., Copyright (c) 2001, 2002 Zope Foundation and Contributors., Copyright (c) 2002 Zope Foundation and Contributors., Copyright (c) 2004 Zope Foundation and Contributors., Copyright (c) 2005 Zope Foundation and Contributors., Copyright (c) 2006 Zope Foundation and Contributors., Copyright (c) 2013 Zope Foundation and Contributors., copyright 2012, Agendaless Consulting <chrism@plope.com>",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:pypi/waitress@1.0.2"
+          }
+        ]
+      },
+      {
+        "name": "django-bootstrap4",
+        "SPDXID": "SPDXRef-pypi-django-bootstrap4-75c946",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:pypi/django-bootstrap4"
+          }
+        ]
+      },
+      {
+        "name": "django",
+        "SPDXID": "SPDXRef-pypi-django-1.11.5-75c946",
+        "versionInfo": "1.11.5",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "BSD-2-Clause",
+        "copyrightText": "(c) 2007-2012 Steven Levithan <http://xregexp.com/>, (c) 2008-2012 Steven Levithan <http://xregexp.com/>, (c) 2009-2012 Steven Levithan <http://xregexp.com/>, (c) 2010-2012 Steven Levithan <http://xregexp.com/>, (c) 2012 Steven Levithan <http://xregexp.com/>, (c) 2013, (c) jQuery Foundation, (c), Better News, (c), Good News, (c), Hello Jack & Jill, Copyright (c) 1991 - 1995, Stichting Mathematisch Centrum Amsterdam, Copyright (c) 1995-1998, 2000-2010 Free Software Foundation, Inc., Copyright (c) 1995-2001 Corporation for National Research Initiatives, Copyright (c) 2001-2003, Patrick K. O'Brien and Contributors, Copyright (c) 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016 Python Software Foundation, Copyright (c) 2002 Drew Perttula., Copyright (c) 2007-2009 Justin Bronn, Copyright (c) 2007-2009, Justin Bronn, Copyright (c) 2007-2012 Steven Levithan <http://xregexp.com/>, Copyright (c) 2007, Robert Coup <robert.coup@onetrackmind.co.nz>, Copyright (c) 2007, Sally, Copyright (c) 2007, Sally Smith, Copyright (c) 2007, Sally Smith Hard-coded, Copyright (c) 2008-2009 Aryeh Leib Taurog, Copyright (c) 2008-2009 Aryeh Leib Taurog, http://www.aryehleib.com, Copyright (c) 2008, Yahoo! Inc., Copyright (c) 2009 Oyvind Sean Kinsey, oyvind@kinsey.no, Copyright (c) 2009 Simon Willison., Copyright (c) 2009, Stanislaus Madueke, Copyright (c) 2010 Gary Wilson Jr. <gary.wilson@gmail.com> and contributors., Copyright (c) 2010 Guilherme Gondim., Copyright (c) 2010-2015 Benjamin Peterson, Copyright (c) 2013 Python Software Foundation, Copyright (c) 2014 Code Charm Ltd, Copyright (c) Django Software Foundation and individual contributors., Copyright 2006 Google Inc. https://code.google.com/p/google-diff-match-patch, Copyright 2007 Google Inc. https://github.com/google/ipaddr-py, copyright Django Software Foundation and contributors, COPYRIGHT Django Software Foundation and contributors, Copyright jQuery Foundation and other contributors, Copyright jQuery Foundation and other contributors, https://jquery.org, copyright Python (Monty) Pictures., Portions copyright (c) 2004, CherryPy Team (team@cherrypy.org)",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:pypi/django@1.11.5"
+          }
+        ]
+      },
+      {
+        "name": "djangorestframework",
+        "SPDXID": "SPDXRef-pypi-djangorestframework-75c946",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:pypi/djangorestframework"
+          }
+        ]
+      },
+      {
+        "name": "psycopg2",
+        "SPDXID": "SPDXRef-pypi-psycopg2-2.7.3.1-75c946",
+        "versionInfo": "2.7.3.1",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "licenseConcluded": "LGPL-3.0-or-later WITH openvpn-openssl-exception",
+        "copyrightText": "Copyright (c) 2001-2003 Federico Di Gregorio <fog@debian.org>, Copyright (c) 2001-2006 Federico Di Gregorio <fog@debian.org>, Copyright (c) 2001-2010 Federico Di Gregorio <fog@debian.org>, Copyright (c) 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010 Python Software Foundation, Copyright (c) 2002 Tom Jenkins <tjenkins@devis.com>, Copyright (c) 2003-2010 Federico Di Gregorio <fog@debian.org>, Copyright (c) 2003-2015 Federico Di Gregorio <fog@debian.org>, Copyright (c) 2004-2010 Federico Di Gregorio <fog@debian.org>, Copyright (c) 2005 Federico Di Gregorio <fog@initd.org>, Copyright (c) 2005-2010 Federico Di Gregorio <fog@debian.org>, Copyright (c) 2006-2010 Federico Di Gregorio <fog@debian.org>, Copyright (c) 2006-2010 Johan Dahlin <jdahlin@async.com.br>, Copyright (c) 2006-2011 Federico Di Gregorio <fog@debian.org>, Copyright (c) 2007 Free Software Foundation, Inc. <http://fsf.org/>, Copyright (c) 2007-2011 Daniele Varrazzo <daniele.varrazzo@gmail.com>, Copyright (c) 2007-2011 Federico Di Gregorio <fog@debian.org>, Copyright (c) 2008 Canonical Ltd., Copyright (c) 2008 James Henstridge <james@jamesh.id.au>, Copyright (c) 2008-2010 Federico Di Gregorio <fog@debian.org>, Copyright (c) 2008-2011 James Henstridge <james@jamesh.id.au>, Copyright (c) 2010 Daniele Varrazzo <daniele.varrazzo@gmail.com>, Copyright (c) 2010-2011 Daniele Varrazzo <daniele.varrazzo@gmail.com>, Copyright (c) 2010-2011 Federico Di Gregorio <fog@debian.org>, Copyright (c) 2010-2011 Jan Urbanski <wulczer@wulczer.org>, Copyright (c) 2011 Daniele Varrazzo <daniele.varrazzo@gmail.com>, Copyright (c) 2012 Daniele Varrazzo <daniele.varrazzo@gmail.com>, Copyright (c) 2013 Daniele Varrazzo <daniele.varrazzo@gmail.com>, Copyright (c) 2013 Matthew Woodcraft <matthew@woodcraft.me.uk>, Copyright (c) 2015 Daniele Varrazzo <daniele.varrazzo@gmail.com>, Copyright (c) 2016 Daniele Varrazzo <daniele.varrazzo@gmail.com>, Copyright (c) 2017 Daniele Varrazzo <daniele.varrazzo@gmail.com>, Copyright 2009, Jannis Leidel., Copyright 2010 by Daniele Varrazzo., Copyright 2013 by Daniele Varrazzo., copyright u'2001-2016, Federico Di Gregorio, Daniele Varrazzo",
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:pypi/psycopg2@2.7.3.1"
+          }
+        ]
+      },
+      {
+        "name": "django-allauth",
+        "SPDXID": "SPDXRef-pypi-django-allauth-75c946",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:pypi/django-allauth"
+          }
+        ]
+      },
+      {
+        "name": "com.github.payush/ayush-crowdbotics-370",
+        "SPDXID": "SPDXRef-github-payush-ayush-crowdbotics-370-master-f85ea1",
+        "versionInfo": "master",
+        "downloadLocation": "git+https://github.com/payush/ayush-crowdbotics-370",
+        "filesAnalyzed": false,
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:github/payush/ayush-crowdbotics-370@master"
+          }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "spdxElementId": "SPDXRef-github-payush-ayush-crowdbotics-370-master-f85ea1",
+        "relatedSpdxElement": "SPDXRef-pypi-psycopg2-2.7.3.1-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-payush-ayush-crowdbotics-370-master-f85ea1",
+        "relatedSpdxElement": "SPDXRef-pypi-django-allauth-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-payush-ayush-crowdbotics-370-master-f85ea1",
+        "relatedSpdxElement": "SPDXRef-pypi-django-environ-0.4.4-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-payush-ayush-crowdbotics-370-master-f85ea1",
+        "relatedSpdxElement": "SPDXRef-pypi-whitenoise-3.3.0-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-payush-ayush-crowdbotics-370-master-f85ea1",
+        "relatedSpdxElement": "SPDXRef-pypi-waitress-1.0.2-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-payush-ayush-crowdbotics-370-master-f85ea1",
+        "relatedSpdxElement": "SPDXRef-pypi-django-bootstrap4-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-payush-ayush-crowdbotics-370-master-f85ea1",
+        "relatedSpdxElement": "SPDXRef-pypi-django-1.11.5-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-github-payush-ayush-crowdbotics-370-master-f85ea1",
+        "relatedSpdxElement": "SPDXRef-pypi-djangorestframework-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-DOCUMENT",
+        "relatedSpdxElement": "SPDXRef-github-payush-ayush-crowdbotics-370-master-f85ea1",
+        "relationshipType": "DESCRIBES"
+      }
+    ]
+  }
+}
