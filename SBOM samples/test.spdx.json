@@ -1,0 +1,56 @@
+{
+    "spdxVersion": "SPDX-2.3",
+    "dataLicense": "CC0-1.0",
+    "SPDXID": "SPDXRef-DOCUMENT",
+    "name": "com.github.addagudisanjay/static-web-app",
+    "documentNamespace": "https://spdx.org/spdxdocs/protobom/942ea2a0-2433-4ec0-a857-93066348df4a",
+    "creationInfo": {
+      "creators": [
+        "Tool: protobom-v0.0.0-20250417160448-234c8d241855+dirty",
+        "Tool: GitHub.com-Dependency-Graph"
+      ],
+      "created": "2025-04-21T14:10:25Z"
+    },
+    "packages": [
+      {
+        "name": "actions/checkout",
+        "SPDXID": "SPDXRef-githubactions-actions-checkout-3-75c946",
+        "versionInfo": "3",
+        "downloadLocation": "NOASSERTION",
+        "filesAnalyzed": false,
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:githubactions/actions/checkout@3"
+          }
+        ]
+      },
+      {
+        "name": "com.github.addagudisanjay/static-web-app",
+        "SPDXID": "SPDXRef-github-addagudisanjay-static-web-app-main-e0db43",
+        "versionInfo": "main",
+        "downloadLocation": "git+https://github.com/addagudisanjay/static-web-app",
+        "filesAnalyzed": false,
+        "externalRefs": [
+          {
+            "referenceCategory": "PACKAGE-MANAGER",
+            "referenceType": "purl",
+            "referenceLocator": "pkg:github/addagudisanjay/static-web-app@main"
+          }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "spdxElementId": "SPDXRef-github-addagudisanjay-static-web-app-main-e0db43",
+        "relatedSpdxElement": "SPDXRef-githubactions-actions-checkout-3-75c946",
+        "relationshipType": "DEPENDS_ON"
+      },
+      {
+        "spdxElementId": "SPDXRef-DOCUMENT",
+        "relatedSpdxElement": "SPDXRef-github-addagudisanjay-static-web-app-main-e0db43",
+        "relationshipType": "DESCRIBES"
+      }
+    ]
+  }
